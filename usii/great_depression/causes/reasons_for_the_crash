@@ -1,0 +1,14 @@
+{
+  "images": [
+    "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "https://res-console.cloudinary.com/ddfoohegy/thumbnails/v1/image/upload/v1765977061/VW5lbXBsb3ltZW50X1JhdGVfdnMuX1llYXJfdGdwZ3dr/drilldown",
+    "https://res-console.cloudinary.com/ddfoohegy/thumbnails/v1/image/upload/v1765977060/TnVtYmVyX29mX0JhbmtfU3VzcGVuc2lvbnNfdnMuX1llYXJfcDVxaG44/drilldown",
+    "https://res-console.cloudinary.com/ddfoohegy/thumbnails/v1/image/upload/v1765977060/UGVyX0NhcGl0YV9QZXJzb25hbF9JbmNvbWVfdnMuX1llYXJfcGFuM2Zy/drilldown"
+  ],
+  "captions": [
+    "November 1929: The Wall Street Crash. The Sub-Treasury Building (now Federal Hall National Memorial), opposite the Wall Street Stock Exchange in Manhattan, New York, at the time of the Wall Street Crash.",
+    "Unemployment Rate vs. Year",
+    "Bank Suspensions vs. Year",
+    "Personal Income vs. Year"
+  ]
+}
