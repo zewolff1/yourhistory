@@ -1,14 +1,41 @@
 {
   "units": [
     {
-      "unit_name": "Unit Template",
+      "unit_name": "European Colonies",
       "lessons": [
         {
-          "lesson_title": "Lesson Template",
-          "objectives": [
-            "Objective 1",
-            "Studennts will understand a topic"
-          ],
+          "lesson_title": "Indigenous Nation Misconceptions",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Europeans and Indigenous Nations Meet",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Jamestown",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Salem Witch Trials",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Slavery",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Colonial Geography",
+          "objectives": ["Students will learn about this lesson."],
           "notes_link": "https://example.com/notes",
           "assessment_link": "https://example.com/assessment"
         }
@@ -18,22 +45,87 @@
       "unit_name": "American Revolution",
       "lessons": [
         {
-          "lesson_title": "Causes of the Revolution",
-          "objectives": [
-            "Objective 1",
-            "Students will analyze colonial responses to British policies"
-          ],
-          "notes_link": "https://example.com/revolution/causes-notes",
-          "assessment_link": "https://example.com/revolution/causes-assessment"
+          "lesson_title": "Reasons for Protest",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
         },
         {
-          "lesson_title": "Key Battles",
-          "objectives": [
-            "Students will learn about major battles of the Revolution",
-            "Students will understand strategies and outcomes"
-          ],
-          "notes_link": "https://example.com/revolution/key-battles-notes",
-          "assessment_link": "https://example.com/revolution/key-battles-assessment"
+          "lesson_title": "Methods of Protest",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Boston Massacre",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Patriots and Loyalists",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Declaration of Independence",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Sides of the War",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Black Americans in the War",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "End of the War",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "A New Nation",
+      "lessons": [
+        {
+          "lesson_title": "Making a Government Activity",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Creating the Constitution",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Bill of Rights",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Washington and Adams",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Judicial Review",
+          "objectives": ["Students will learn about this lesson."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
         }
       ]
     }
