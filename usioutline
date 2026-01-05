@@ -1,0 +1,41 @@
+{
+  "units": [
+    {
+      "unit_name": "Unit Template",
+      "lessons": [
+        {
+          "lesson_title": "Lesson Template",
+          "objectives": [
+            "Students will learn about a lesson",
+            "Students will understand a topic"
+          ],
+          "notes_link": "https://example.com/colonial-america/early-settlements-notes",
+          "assessment_link": "https://example.com/colonial-america/early-settlements-assessment"
+        },
+      ]
+    },
+    {
+      "unit_name": "American Revolution",
+      "lessons": [
+        {
+          "lesson_title": "Causes of the Revolution",
+          "objectives": [
+            "Students will identify political and economic causes of the Revolution",
+            "Students will analyze colonial responses to British policies"
+          ],
+          "notes_link": "https://example.com/revolution/causes-notes",
+          "assessment_link": "https://example.com/revolution/causes-assessment"
+        },
+        {
+          "lesson_title": "Key Battles",
+          "objectives": [
+            "Students will learn about major battles of the Revolution",
+            "Students will understand strategies and outcomes"
+          ],
+          "notes_link": "https://example.com/revolution/key-battles-notes",
+          "assessment_link": "https://example.com/revolution/key-battles-assessment"
+        }
+      ]
+    }
+  ]
+}
