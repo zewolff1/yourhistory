@@ -1,10 +1,10 @@
 {
   "units": [
     {
-      "unit_name": "European Colonies",
+      "unit_name": "Unit Template",
       "lessons": [
         {
-          "lesson_title": "Indigenous Nation Misconceptions",
+          "lesson_title": "Lesson Template",
           "objectives": ["Students will learn about this lesson."],
           "notes_link": "https://example.com/notes",
           "assessment_link": "https://example.com/assessment"
