@@ -1,38 +1,92 @@
-{
-  "images": [
-    "https://www.thoughtco.com/thmb/WR-VKIkm5mHniYQxkrOtQ74cRDw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Migrant_Mother_Nipomo_California_3334095096-37e37c052a0745ba9cf9fae3cc5f967b.jpg",
-    "https://www.thoughtco.com/thmb/388_oU0Qa2MHd8U5jyaolqqQWls=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Dust_Storms__Kodak_view_of_a_dusk_storm_Baca_Co._Colorado_Easter_Sunday_1935__Photo_by_N.R._Stone_-_NARA_-_195659.tif-d63dfeb61fa745f8aacbe26ae78a7de6.jpg0",
-    "https://www.thoughtco.com/thmb/dSVJRVkGNGXy8KM-z6t-KSAnuOQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/27-0852M-79865f40e75d49e8a59b78e830a569d2.jpg",
-    "https://www.thoughtco.com/thmb/QOAkWPk2dVGpm6HhzhgqEufKb5o=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/27-0695M-51199c9e84084b03b46cc86b0c3c8141.jpg",
-    "https://www.thoughtco.com/thmb/dvv_g8txLqkFuYK_K7ubbAznr2k=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Wife_and_children_of_a_sharecropper_in_Washington_County_Arkansas_-_NARA_-_195845-98c3e9965a89434ab394640611f090d0.jpg",
-    "https://www.thoughtco.com/thmb/19ubmmJZ7-XY2gEBIUoOuQ-ys04=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Children_of_rehabilitation_clinic_in_Arkansas_-_NARA_-_195844.tif-0f040e271c5c47af96f241b5cbbce58b.jpg",
-    "https://www.thoughtco.com/thmb/blScjgkHVQVIwtG0mVxk41rVNDY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Farm_Security_Administration_School_in_Alabama_-_NARA_-_195852.tif-131b9a4c86ed4e6184743a6d38561d66.jpg",
-    "https://www.thoughtco.com/thmb/Jn-ccaqn9Fi0QB9WcRxqrqJWqTM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Farm_Security_Administration_Homeless_family_tenant_farmers_in_1936_-_NARA_-_195511.tif-258c563bb0e243b3b943b7125287086a.jpg",
-    "https://www.thoughtco.com/thmb/0f8DBG_Y8e1qejzbL_iK6Lh4G6c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Farm_Security_Administration_farmers_whose_topsoil_blew_away_joined_the_sod_caravans_of__Okies__on_Route_66_to..._-_NARA_-_195532.tif-bca18fd7e3f041ab90567a9b0f447689.jpg",
-    "https://www.thoughtco.com/thmb/tAQbvZgA7LMn4kDzVW1mUWX6Qjw=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/gdliveoutcar-58b974c95f9b58af5c48ca97.jpg",
-    "https://www.thoughtco.com/thmb/qIeKLR8mSCq0wTUmXTCBFd4xPIs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Migrant_family_looking_for_work_in_the_pea_fields_of_California_-_NARA_-_196057.tif-f6b2e5cda129414fa0838fe61d4957d7.jpg",
-    "https://www.thoughtco.com/thmb/ontATApNz5ppkFmtmyEEBNODVls=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8a25275v-e09571ce3e4642c48d81230a18263e1b.jpg",
-    "https://www.thoughtco.com/thmb/mssXjI9w-t6u0FWQloI-qD7GZO4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8a25193v-86cdbb1abfcc42febc456b56be72d6f2.jpg",
-    "https://www.thoughtco.com/thmb/5pfLJAA1NpBSki5-hvDhtxBVbfk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/8b38193v-11d70c0398c44069a7d313860773afc9.jpg",
-    "https://www.thoughtco.com/thmb/FL9qOCbgx8a7l3UPWlaHIkSVFbE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Depression_Breadlines-long_line_of_people_waiting_to_be_fed_New_York_City_in_the_absence_of_substantial_government..._-_NARA_-_196506.tif-23305d763d554473bcfea0b46715d5fd.jpg",
-    "https://www.thoughtco.com/thmb/ybvBC9Tas0uUhxsRUkU949Ve66c=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Depression-Unemployed_photo_of_Idle_man_dressed_in_worn_coat_lying_down_on_pier-New_York_City_docks_photo_by_Lewis..._-_NARA_-_195914.tif-73707572d8784c68899766224e98bd8c.jpg"
-  ],
-  "captions": [
-    "This famous photograph is searing in its depiction of the utter desperation the Great Depression brought to so many and has become a symbol of the Depression. This woman was one of many migrant workers picking peas in California in the 1930s to make just enough money to survive.",
-    "Hot and dry weather over several years brought dust storms that devastated the Great Plains states, known as the Dust Bowl.",
-    "The drought, dust storms, and boll weevils that attacked Southern crops in the 1930s all worked together to destroy farms in the South.",
-    "In 1929, before the stock market crash that marked the beginning of the Great Depression, the unemployment rate in the United States was 3.14%.",
-    "At the beginning of the 1930s, many living in the South were tenant farmers, known as sharecroppers.",
-    "Sharecroppers often found it difficult to earn enough money to feed their children.",
-    "In the South, some children of sharecroppers were able to periodically attend school.",
-    "While some men went out alone, others traveled with their entire families.",
-    "Those fortunate enough to have a car would pack everything they could fit inside and head west.",
-    "Having left their dying farms behind, these farmers are now migrants.",
-    "Some migrant workers used their cars to expand their temporary shelters.",
-    "Temporary housing came in many different forms.",
-    "Migrant workers lived in their temporary shelters, cooking and washing there.",
-    "Collections of temporary housing structures such as these are usually called shantytowns, but during the Great Depression, they were given the nickname \"Hoovervilles\" after President Herbert Hoover.",
-    "Large cities were not immune to the hardships and struggles of the Great Depression.",
-    "Sometimes, without food, a home, or a job prospect, a tired man might just lay down and ponder what lay ahead."
-  ]
-}
+<!-- Image Slider -->
+<div class="card-container slider-container">
+  <div class="card has-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png');">
+    <span>Image 1 Caption</span>
+  </div>
+  <div class="card has-image" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/057/068/323/small/single-fresh-red-strawberry-on-table-green-background-food-fruit-sweet-macro-juicy-plant-image-photo.jpg');">
+    <span>Image 2 Caption</span>
+  </div>
+</div>
+
+<div class="slider-controls">
+  <button id="prev">&#10094;</button>
+  <button id="next">&#10095;</button>
+</div>
+
+<script>
+  const slides = document.querySelectorAll('.slider-container .card');
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  let current = 0;
+
+  function showSlide(index) {
+    if (index >= slides.length) current = 0;
+    else if (index < 0) current = slides.length - 1;
+    else current = index;
+
+    slides.forEach((slide, i) => {
+      slide.style.display = i === current ? 'flex' : 'none';
+    });
+  }
+
+  prevBtn.addEventListener('click', () => showSlide(current - 1));
+  nextBtn.addEventListener('click', () => showSlide(current + 1));
+
+  // Initialize first slide
+  showSlide(current);
+
+  // Optional auto-slide
+  setInterval(() => {
+    showSlide(current + 1);
+  }, 5000);
+</script>
+
+<style>
+  .slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+  }
+
+  .slider-container .card {
+    display: none; /* only show current */
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .slider-container .card span {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    border-radius: 0 0 8px 8px;
+    font-size: 1rem;
+  }
+
+  .slider-controls {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .slider-controls button {
+    background: #3498db;
+    border: none;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .slider-controls button:hover {
+    background: #5dade2;
+  }
+</style>
