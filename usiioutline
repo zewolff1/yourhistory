@@ -1,0 +1,467 @@
+{
+  "units": [
+    {
+      "unit_name": "Progressivism",
+      "lessons": [
+        {
+          "lesson_title": "Growth of Cities",
+          "objectives": ["Students will understand the growth of cities during the Progressive Era."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Problems in Cities",
+          "objectives": ["Students will understand the problems faced by cities during the Progressive Era."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Progressive Solutions",
+          "objectives": ["Students will understand the solutions proposed by Progressives."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Women's Suffrage",
+          "objectives": ["Students will understand the movement for women's suffrage."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Women of Color",
+          "objectives": ["Students will understand the role of women of color in the Progressive Era."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Excluded From Reform",
+          "objectives": ["Students will understand who was excluded from Progressive reforms and why."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "DuBois and Washington",
+          "objectives": ["Students will compare the ideas of W.E.B. Du Bois and Booker T. Washington."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "End of Isolationism",
+      "lessons": [
+        {
+          "lesson_title": "Imperialism",
+          "objectives": ["Students will understand the causes and effects of American imperialism."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "WWI: US Joins",
+          "objectives": ["Students will understand why the United States joined World War I."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "WWI: Expectations",
+          "objectives": ["Students will understand expectations Americans had about World War I."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "WWI: Reality",
+          "objectives": ["Students will understand the realities of World War I."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "1920s",
+      "lessons": [
+        {
+          "lesson_title": "1920s Culture",
+          "objectives": ["Students will understand major cultural changes of the 1920s."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Prohibition",
+          "objectives": ["Students will understand the causes and effects of Prohibition."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Jack Johnson",
+          "objectives": ["Students will understand the significance of Jack Johnson in the 1920s."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Tulsa Massacre",
+          "objectives": ["Students will understand the causes and impact of the Tulsa Race Massacre."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Harlem Renaissance",
+          "objectives": ["Students will understand the significance of the Harlem Renaissance."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "The Great Depression",
+      "lessons": [
+        {
+          "lesson_title": "Causes of the Great Depression",
+          "objectives": ["Students will understand the causes of the Great Depression."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Effects of the Great Depression",
+          "objectives": ["Students will understand the effects of the Great Depression."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Hoover vs. Roosevelt",
+          "objectives": ["Students will compare Hoover’s and Roosevelt’s responses to the Great Depression."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "New Deal",
+          "objectives": ["Students will understand the goals and impact of the New Deal."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "The Holocaust",
+      "lessons": [
+        {
+          "lesson_title": "Rise of Dictators",
+          "objectives": ["Students will understand how dictators rose to power in Europe."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "What is Anti-Semitism?",
+          "objectives": ["Students will understand the meaning and history of anti-Semitism."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Nazi Party Platform",
+          "objectives": ["Students will understand the beliefs and goals of the Nazi Party."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Propaganda",
+          "objectives": ["Students will understand how propaganda was used during the Holocaust."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Daily Life",
+          "objectives": ["Students will understand daily life under Nazi rule."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Book Burnings and Kristallnacht",
+          "objectives": ["Students will understand the significance of book burnings and Kristallnacht."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Phases of the Holocaust",
+          "objectives": ["Students will understand the phases of the Holocaust."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Resistance",
+          "objectives": ["Students will understand forms of resistance during the Holocaust."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "World War II",
+      "lessons": [
+        {
+          "lesson_title": "America Joins WWII",
+          "objectives": ["Students will understand why the United States joined World War II."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Homefront",
+          "objectives": ["Students will understand life on the American homefront during WWII."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Japanese Internment Camps",
+          "objectives": ["Students will understand the causes and effects of Japanese internment."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "War in Europe",
+          "objectives": ["Students will understand major events of the war in Europe."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "War in Pacific",
+          "objectives": ["Students will understand major events of the war in the Pacific."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Atomic Bomb",
+          "objectives": ["Students will understand the impact of the atomic bomb."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "The Cold War",
+      "lessons": [
+        {
+          "lesson_title": "Cold War Overview",
+          "objectives": ["Students will understand the causes and structure of the Cold War."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "The Space Race",
+          "objectives": ["Students will understand the significance of the Space Race."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "McCarthyism",
+          "objectives": ["Students will understand the impact of McCarthyism."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "TV: Kennedy Debates and Assassination",
+          "objectives": ["Students will understand the role of television in the Kennedy era."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "Vietnam War",
+      "lessons": [
+        {
+          "lesson_title": "The Vietnam War Starts",
+          "objectives": ["Students will understand how the Vietnam War began."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "My Lai Massacre",
+          "objectives": ["Students will understand the significance of the My Lai Massacre."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Vietnam War Protests",
+          "objectives": ["Students will understand opposition to the Vietnam War."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "Civil Rights",
+      "lessons": [
+        {
+          "lesson_title": "Emmitt Till",
+          "objectives": ["Students will understand the significance of Emmett Till."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Civil Disobedience and Lunch Counter Sit-Ins",
+          "objectives": ["Students will understand the role of civil disobedience in the Civil Rights Movement."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Montgomery Bus Boycott",
+          "objectives": ["Students will understand the significance of the Montgomery Bus Boycott."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Letter From a Birmingham Jail",
+          "objectives": ["Students will understand the importance of the Letter from Birmingham Jail."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "March for Freedom",
+          "objectives": ["Students will understand the goals of the March on Washington."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Desegregation in Schools",
+          "objectives": ["Students will understand efforts to desegregate schools."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Malcolm X and Martin Luther King Jr.",
+          "objectives": ["Students will compare Malcolm X and Martin Luther King Jr."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Black Panthers",
+          "objectives": ["Students will understand the goals of the Black Panther Party."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Equal Rights Amendment",
+          "objectives": ["Students will understand the goals of the Equal Rights Amendment."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "LGBTQ+ Rights",
+      "lessons": [
+        {
+          "lesson_title": "Bayard Rustin",
+          "objectives": ["Students will understand the significance of Bayard Rustin."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Anti-LGBTQ+ Legislation",
+          "objectives": ["Students will understand laws affecting LGBTQ+ rights."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Before Stonewall",
+          "objectives": ["Students will understand LGBTQ+ life before Stonewall."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Stonewall Uprising",
+          "objectives": ["Students will understand the significance of the Stonewall Uprising."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Harvey Milk",
+          "objectives": ["Students will understand the significance of Harvey Milk."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "AIDs Crisis",
+          "objectives": ["Students will understand the impact of the AIDS crisis."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Don't Ask Don't Tell",
+          "objectives": ["Students will understand the policy of Don't Ask, Don't Tell."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    },
+    {
+      "unit_name": "Modern Period",
+      "lessons": [
+        {
+          "lesson_title": "Nixon and Watergate",
+          "objectives": ["Students will understand the Watergate scandal."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Jimmy Carter",
+          "objectives": ["Students will understand the presidency of Jimmy Carter."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Reagan and the Economy",
+          "objectives": ["Students will understand Reagan’s economic policies."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Clinton's War on Crime",
+          "objectives": ["Students will understand Clinton-era crime policies."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Wars in Afghanistan and Iraq",
+          "objectives": ["Students will understand post-9/11 wars."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Patriot Act",
+          "objectives": ["Students will understand the Patriot Act."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Housing Market Crash",
+          "objectives": ["Students will understand the causes of the housing market crash."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Obama",
+          "objectives": ["Students will understand key events of the Obama presidency."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Election of Trump",
+          "objectives": ["Students will understand the significance of the 2016 election."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "2020 Election",
+          "objectives": ["Students will understand the events of the 2020 election."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        },
+        {
+          "lesson_title": "Climate Change",
+          "objectives": ["Students will understand modern issues related to climate change."],
+          "notes_link": "https://example.com/notes",
+          "assessment_link": "https://example.com/assessment"
+        }
+      ]
+    }
+  ]
+}
