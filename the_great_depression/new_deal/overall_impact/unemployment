@@ -1,108 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Unemployment Line Graph</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Unemployment Line Graph (SVG)</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .axis {
+    stroke: #333;
+    stroke-width: 1;
+  }
+
+  .grid {
+    stroke: #ccc;
+    stroke-dasharray: 4;
+  }
+
+  .line {
+    fill: none;
+    stroke: #1976d2;
+    stroke-width: 2;
+  }
+
+  .point {
+    fill: #1976d2;
+  }
+
+  .highlight {
+    fill: #d32f2f;
+    stroke: #000;
+    stroke-width: 1.5;
+  }
+
+  .tooltip {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .highlight-group:hover .tooltip {
+    visibility: visible;
+  }
+</style>
 </head>
+
 <body>
 
 <h2>U.S. Unemployment During the Great Depression</h2>
-<canvas id="lineChart"></canvas>
 
-<script>
-  const labels = [
-    '1929','1930','1931','1932','1933','1934','1935','1936',
-    '1937','1938','1939','1940','1941','1942','1943'
-  ];
+<svg viewBox="0 0 900 500">
 
-  const data = [
-    3.2, 8.7, 15.9, 23.6, 24.9, 21.7, 20.1, 16.9,
-    14.3, 19.0, 17.2, 14.6, 9.9, 4.7, 1.9
-  ];
+  <!-- Axes -->
+  <line x1="80" y1="50" x2="80" y2="420" class="axis"/>
+  <line x1="80" y1="420" x2="860" y2="420" class="axis"/>
 
-  // Tooltip text ONLY for selected years
-  const tooltipNotes = {
-    '1933': 'New Deal Begins',
-    '1941': 'U.S. Joins World War II'
-  };
+  <!-- Y-axis labels -->
+  <text x="30" y="420">0%</text>
+  <text x="25" y="350">10%</text>
+  <text x="25" y="280">20%</text>
+  <text x="25" y="210">30%</text>
 
-  // Highlight only these indices
-  const highlightYears = ['1933', '1941'];
+  <!-- Grid lines -->
+  <line x1="80" y1="350" x2="860" y2="350" class="grid"/>
+  <line x1="80" y1="280" x2="860" y2="280" class="grid"/>
+  <line x1="80" y1="210" x2="860" y2="210" class="grid"/>
 
-  const ctx = document.getElementById('lineChart').getContext('2d');
+  <!-- Line path -->
+  <path class="line"
+    d="
+      M 80 390
+      L 140 350
+      L 200 300
+      L 260 250
+      L 320 240
+      L 380 270
+      L 440 285
+      L 500 310
+      L 560 330
+      L 620 300
+      L 680 315
+      L 740 335
+      L 800 360
+      L 860 385
+    "
+  />
 
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels: labels,
-      datasets: [{
-        label: 'Unemployment Rate (%)',
-        data: data,
-        tension: 0.3,
-        fill: false,
+  <!-- Regular points -->
+  <circle cx="80"  cy="390" r="3" class="point"/>
+  <circle cx="140" cy="350" r="3" class="point"/>
+  <circle cx="200" cy="300" r="3" class="point"/>
+  <circle cx="260" cy="250" r="3" class="point"/>
+  <circle cx="380" cy="270" r="3" class="point"/>
+  <circle cx="440" cy="285" r="3" class="point"/>
+  <circle cx="500" cy="310" r="3" class="point"/>
+  <circle cx="560" cy="330" r="3" class="point"/>
+  <circle cx="620" cy="300" r="3" class="point"/>
+  <circle cx="680" cy="315" r="3" class="point"/>
+  <circle cx="740" cy="335" r="3" class="point"/>
+  <circle cx="860" cy="385" r="3" class="point"/>
 
-        // Point styling
-        pointRadius: (context) =>
-          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? 7 : 3,
+  <!-- 1933 Highlight -->
+  <g class="highlight-group">
+    <circle cx="320" cy="240" r="7" class="highlight"/>
+    <rect x="290" y="190" width="160" height="40" rx="5" fill="#fff" stroke="#000" class="tooltip"/>
+    <text x="300" y="215" class="tooltip" font-size="14">
+      1933: New Deal Begins
+    </text>
+  </g>
 
-        pointHoverRadius: (context) =>
-          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? 9 : 0,
+  <!-- 1941 Highlight -->
+  <g class="highlight-group">
+    <circle cx="800" cy="360" r="7" class="highlight"/>
+    <rect x="630" y="310" width="210" height="40" rx="5" fill="#fff" stroke="#000" class="tooltip"/>
+    <text x="640" y="335" class="tooltip" font-size="14">
+      1941: U.S. Joins World War II
+    </text>
+  </g>
 
-        pointBackgroundColor: (context) =>
-          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? '#d32f2f' : '#1976d2',
+  <!-- X-axis labels -->
+  <text x="70"  y="450">1929</text>
+  <text x="310" y="450">1933</text>
+  <text x="790" y="450">1941</text>
 
-        pointBorderWidth: (context) =>
-          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? 2 : 0
-      }]
-    },
-    options: {
-      responsive: true,
-      interaction: {
-        mode: 'nearest',
-        intersect: true
-      },
-      plugins: {
-        tooltip: {
-          filter: function(context) {
-            // ONLY allow tooltips on highlighted years
-            return highlightYears.includes(context.label);
-          },
-          callbacks: {
-            label: function(context) {
-              return context.parsed.y + '%';
-            },
-            afterLabel: function(context) {
-              return tooltipNotes[context.label];
-            }
-          }
-        }
-      },
-      scales: {
-        y: {
-          beginAtZero: true,
-          title: {
-            display: true,
-            text: 'Percent Unemployed'
-          }
-        },
-        x: {
-          title: {
-            display: true,
-            text: 'Year'
-          }
-        }
-      }
-    }
-  });
-</script>
+</svg>
 
 </body>
 </html>
