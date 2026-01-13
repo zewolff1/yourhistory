@@ -1,373 +1,108 @@
-<!doctype html>
-<html lang="en" class="h-full">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unemployment Rate Chart</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="/_sdk/element_sdk.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <title>Unemployment Line Graph</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
-      box-sizing: border-box;
-      font-family: 'DM Sans', sans-serif;
-    }
-    
-    .chart-line {
-      stroke-dasharray: 2000;
-      stroke-dashoffset: 2000;
-      animation: drawLine 2.5s ease-out forwards;
-    }
-    
-    @keyframes drawLine {
-      to {
-        stroke-dashoffset: 0;
-      }
-    }
-    
-    .data-point {
-      opacity: 0;
-      animation: fadeIn 0.3s ease-out forwards;
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-    
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-      }
-    }
-    
-    .tooltip {
-      opacity: 0;
-      transition: opacity 0.2s ease;
-      pointer-events: none;
-      z-index: 1000;
-    }
-    
-    .tooltip.visible {
-      opacity: 1;
-    }
-    
-    .grid-line {
-      stroke-dasharray: 4 4;
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
     }
   </style>
-  <style>@view-transition { navigation: auto; }</style>
-  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
- </head>
- <body class="h-full m-0 p-0">
-  <div id="app-container" class="h-full w-full flex items-center justify-center p-8 overflow-auto" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
-   <div class="w-full max-w-6xl"><!-- Chart Title -->
-    <h1 id="chart-title" class="text-2xl font-bold mb-6 text-center" style="color: #f8fafc;">U.S. Unemployment Rate (1929-1943)</h1><!-- Chart Container -->
-    <div class="rounded-2xl p-8 shadow-2xl" style="background-color: #1e293b;">
-     <div class="relative"><!-- Y-Axis Label -->
-      <div id="y-axis-label" class="absolute -left-4 top-1/2 -translate-y-1/2 -rotate-90 text-sm font-medium whitespace-nowrap" style="color: #94a3b8;">
-       Unemployment Rate (%)
-      </div><!-- SVG Chart -->
-      <svg id="chart-svg" viewbox="0 0 900 450" class="w-full h-auto ml-12"><defs>
-        <lineargradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-         <stop offset="0%" style="stop-color:#ef4444" />
-         <stop offset="50%" style="stop-color:#f59e0b" />
-         <stop offset="100%" style="stop-color:#10b981" />
-        </lineargradient>
-        <lineargradient id="areaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-         <stop offset="0%" style="stop-color:#ef4444;stop-opacity:0.3" />
-         <stop offset="100%" style="stop-color:#ef4444;stop-opacity:0" />
-        </lineargradient>
-        <filter id="glow">
-         <fegaussianblur stddeviation="3" result="coloredBlur" />
-         <femerge>
-          <femergenode in="coloredBlur" />
-          <femergenode in="SourceGraphic" />
-         </femerge>
-        </filter>
-       </defs> <!-- Grid Lines --> <g class="grid-lines">
-        <line x1="60" y1="50" x2="850" y2="50" class="grid-line" stroke="#334155" stroke-width="1" />
-        <line x1="60" y1="110" x2="850" y2="110" class="grid-line" stroke="#334155" stroke-width="1" />
-        <line x1="60" y1="170" x2="850" y2="170" class="grid-line" stroke="#334155" stroke-width="1" />
-        <line x1="60" y1="230" x2="850" y2="230" class="grid-line" stroke="#334155" stroke-width="1" />
-        <line x1="60" y1="290" x2="850" y2="290" class="grid-line" stroke="#334155" stroke-width="1" />
-        <line x1="60" y1="350" x2="850" y2="350" class="grid-line" stroke="#334155" stroke-width="1" />
-       </g> <!-- Y-Axis Values --> <g class="y-axis-values" fill="#94a3b8" font-size="12" font-weight="500">
-        <text x="50" y="55" text-anchor="end">
-         25%
-        </text>
-        <text x="50" y="115" text-anchor="end">
-         20%
-        </text>
-        <text x="50" y="175" text-anchor="end">
-         15%
-        </text>
-        <text x="50" y="235" text-anchor="end">
-         10%
-        </text>
-        <text x="50" y="295" text-anchor="end">
-         5%
-        </text>
-        <text x="50" y="355" text-anchor="end">
-         0%
-        </text>
-       </g> <!-- Area Fill --> <path id="area-path" fill="url(#areaGradient)" /> <!-- Line --> <path id="chart-line" class="chart-line" fill="none" stroke="url(#lineGradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" /> <!-- Data Points --> <g id="data-points"></g> <!-- X-Axis Labels --> <g id="x-axis-labels" fill="#94a3b8" font-size="11" font-weight="500"></g>
-      </svg><!-- X-Axis Label -->
-      <div id="x-axis-label" class="text-center mt-4 text-sm font-medium" style="color: #94a3b8;">
-       Year
-      </div>
-     </div>
-    </div><!-- Tooltip -->
-    <div id="tooltip" class="tooltip fixed rounded-lg text-sm shadow-xl border" style="background-color: #1e293b; color: #f8fafc; border-color: #6366f1; padding: 12px;">
-     <div id="tooltip-year" class="font-semibold" style="color: #a5b4fc;"></div>
-     <div id="tooltip-value" class="text-lg font-bold mb-1"></div>
-     <div id="tooltip-event" class="text-xs" style="color: #cbd5e1; max-width: 200px;"></div>
-    </div>
-   </div>
-  </div>
-  <script>
-    const chartData = [
-      { year: '1929', value: 3.2, event: 'Market crash' },
-      { year: '1930', value: 8.7, event: 'Smoot-Hawley' },
-      { year: '1931', value: 15.9, event: 'Dust Bowl' },
-      { year: '1932', value: 23.6, event: "Hoover's tax hikes" },
-      { year: '1933', value: 24.9, event: "FDR's New Deal" },
-      { year: '1934', value: 21.7, event: 'Depression eased' },
-      { year: '1935', value: 20.1, event: 'N/A' },
-      { year: '1936', value: 16.9, event: 'N/A' },
-      { year: '1937', value: 14.3, event: 'Spending cuts' },
-      { year: '1938', value: 19.0, event: 'FLSA started minimum wage' },
-      { year: '1939', value: 17.2, event: 'Drought ended' },
-      { year: '1940', value: 14.6, event: 'U.S. draft' },
-      { year: '1941', value: 9.9, event: 'Pearl Harbor' },
-      { year: '1942', value: 4.7, event: 'Defense spending tripled' },
-      { year: '1943', value: 1.9, event: 'Germany surrendered at Stalingrad' }
-    ];
+</head>
+<body>
 
-    const defaultConfig = {
-      chart_title: 'U.S. Unemployment Rate (1929-1943)',
-      x_axis_label: 'Year',
-      y_axis_label: 'Unemployment Rate (%)',
-      background_color: '#0f172a',
-      surface_color: '#1e293b',
-      text_color: '#f8fafc',
-      primary_action_color: '#ef4444',
-      secondary_action_color: '#94a3b8',
-      font_family: 'DM Sans',
-      font_size: 16
-    };
+<h2>U.S. Unemployment During the Great Depression</h2>
+<canvas id="lineChart"></canvas>
 
-    let config = { ...defaultConfig };
+<script>
+  const labels = [
+    '1929','1930','1931','1932','1933','1934','1935','1936',
+    '1937','1938','1939','1940','1941','1942','1943'
+  ];
 
-    // Calculate positions for data points
-    const minValue = 0;
-    const maxValue = 25;
-    const chartWidth = 790;
-    const chartHeight = 300;
-    const startX = 60;
-    const startY = 350;
-    const stepX = chartWidth / (chartData.length - 1);
+  const data = [
+    3.2, 8.7, 15.9, 23.6, 24.9, 21.7, 20.1, 16.9,
+    14.3, 19.0, 17.2, 14.6, 9.9, 4.7, 1.9
+  ];
 
-    function valueToY(value) {
-      return startY - ((value / maxValue) * chartHeight);
-    }
+  // Tooltip text ONLY for selected years
+  const tooltipNotes = {
+    '1933': 'New Deal Begins',
+    '1941': 'U.S. Joins World War II'
+  };
 
-    // Build the chart
-    function buildChart() {
-      const chartLine = document.getElementById('chart-line');
-      const areaPath = document.getElementById('area-path');
-      const dataPointsGroup = document.getElementById('data-points');
-      const xAxisLabels = document.getElementById('x-axis-labels');
-      
-      let linePath = '';
-      let areaPathStr = '';
-      
-      chartData.forEach((point, index) => {
-        const x = startX + (index * stepX);
-        const y = valueToY(point.value);
-        
-        if (index === 0) {
-          linePath = `M ${x} ${y}`;
-          areaPathStr = `M ${x} ${startY} L ${x} ${y}`;
-        } else {
-          linePath += ` L ${x} ${y}`;
-          areaPathStr += ` L ${x} ${y}`;
-        }
-        
-        // Create data point
-        const pointGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-        pointGroup.classList.add('data-point');
-        pointGroup.style.animationDelay = `${0.3 + (index * 0.1)}s`;
-        pointGroup.dataset.year = point.year;
-        pointGroup.dataset.value = point.value;
-        pointGroup.dataset.event = point.event;
-        
-        const outerCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        outerCircle.setAttribute('cx', x);
-        outerCircle.setAttribute('cy', y);
-        outerCircle.setAttribute('r', '6');
-        outerCircle.setAttribute('fill', '#1e293b');
-        outerCircle.setAttribute('stroke', '#6366f1');
-        outerCircle.setAttribute('stroke-width', '2');
-        
-        const innerCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        innerCircle.setAttribute('cx', x);
-        innerCircle.setAttribute('cy', y);
-        innerCircle.setAttribute('r', '3');
-        innerCircle.setAttribute('fill', '#6366f1');
-        
-        pointGroup.appendChild(outerCircle);
-        pointGroup.appendChild(innerCircle);
-        dataPointsGroup.appendChild(pointGroup);
-        
-        // Add X-axis label (show every other year to avoid crowding)
-        if (index % 1 === 0) {
-          const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-          label.setAttribute('x', x);
-          label.setAttribute('y', 375);
-          label.setAttribute('text-anchor', 'middle');
-          label.textContent = point.year;
-          xAxisLabels.appendChild(label);
-        }
-      });
-      
-      // Close the area path
-      const lastX = startX + ((chartData.length - 1) * stepX);
-      areaPathStr += ` L ${lastX} ${startY} Z`;
-      
-      chartLine.setAttribute('d', linePath);
-      areaPath.setAttribute('d', areaPathStr);
-      
-      // Add tooltip interactions
-      setupTooltips();
-    }
+  // Highlight only these indices
+  const highlightYears = ['1933', '1941'];
 
-    function setupTooltips() {
-      const tooltip = document.getElementById('tooltip');
-      const tooltipYear = document.getElementById('tooltip-year');
-      const tooltipValue = document.getElementById('tooltip-value');
-      const tooltipEvent = document.getElementById('tooltip-event');
-      const dataPoints = document.querySelectorAll('.data-point');
+  const ctx = document.getElementById('lineChart').getContext('2d');
 
-      dataPoints.forEach(point => {
-        point.addEventListener('mouseenter', (e) => {
-          const year = point.dataset.year;
-          const value = point.dataset.value;
-          const event = point.dataset.event;
-          
-          tooltipYear.textContent = year;
-          tooltipValue.textContent = `${value}%`;
-          tooltipEvent.textContent = event;
-          tooltip.classList.add('visible');
-          
-          const outerCircle = point.querySelector('circle:first-child');
-          const innerCircle = point.querySelector('circle:last-child');
-          outerCircle.setAttribute('r', '8');
-          innerCircle.setAttribute('r', '4');
-        });
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Unemployment Rate (%)',
+        data: data,
+        tension: 0.3,
+        fill: false,
 
-        point.addEventListener('mousemove', (e) => {
-          tooltip.style.left = `${e.clientX + 15}px`;
-          tooltip.style.top = `${e.clientY - 10}px`;
-        });
+        // Point styling
+        pointRadius: (context) =>
+          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? 7 : 3,
 
-        point.addEventListener('mouseleave', () => {
-          tooltip.classList.remove('visible');
-          const outerCircle = point.querySelector('circle:first-child');
-          const innerCircle = point.querySelector('circle:last-child');
-          outerCircle.setAttribute('r', '6');
-          innerCircle.setAttribute('r', '3');
-        });
-      });
-    }
+        pointHoverRadius: (context) =>
+          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? 9 : 0,
 
-    async function onConfigChange(cfg) {
-      const chartTitle = document.getElementById('chart-title');
-      const xAxisLabel = document.getElementById('x-axis-label');
-      const yAxisLabel = document.getElementById('y-axis-label');
-      const appContainer = document.getElementById('app-container');
+        pointBackgroundColor: (context) =>
+          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? '#d32f2f' : '#1976d2',
 
-      chartTitle.textContent = cfg.chart_title || defaultConfig.chart_title;
-      xAxisLabel.textContent = cfg.x_axis_label || defaultConfig.x_axis_label;
-      yAxisLabel.textContent = cfg.y_axis_label || defaultConfig.y_axis_label;
-
-      const bgColor = cfg.background_color || defaultConfig.background_color;
-      const surfaceColor = cfg.surface_color || defaultConfig.surface_color;
-      const textColor = cfg.text_color || defaultConfig.text_color;
-      const secondaryColor = cfg.secondary_action_color || defaultConfig.secondary_action_color;
-
-      appContainer.style.background = `linear-gradient(135deg, ${bgColor} 0%, ${surfaceColor} 100%)`;
-      chartTitle.style.color = textColor;
-      xAxisLabel.style.color = secondaryColor;
-      yAxisLabel.style.color = secondaryColor;
-
-      const fontFamily = cfg.font_family || defaultConfig.font_family;
-      const fontSize = cfg.font_size || defaultConfig.font_size;
-      const baseFontStack = 'sans-serif';
-      
-      document.body.style.fontFamily = `${fontFamily}, ${baseFontStack}`;
-      chartTitle.style.fontSize = `${fontSize * 1.5}px`;
-      xAxisLabel.style.fontSize = `${fontSize * 0.875}px`;
-      yAxisLabel.style.fontSize = `${fontSize * 0.875}px`;
-    }
-
-    function mapToCapabilities(cfg) {
-      return {
-        recolorables: [
-          {
-            get: () => cfg.background_color || defaultConfig.background_color,
-            set: (value) => { cfg.background_color = value; window.elementSdk.setConfig({ background_color: value }); }
+        pointBorderWidth: (context) =>
+          highlightYears.includes(context.chart.data.labels[context.dataIndex]) ? 2 : 0
+      }]
+    },
+    options: {
+      responsive: true,
+      interaction: {
+        mode: 'nearest',
+        intersect: true
+      },
+      plugins: {
+        tooltip: {
+          filter: function(context) {
+            // ONLY allow tooltips on highlighted years
+            return highlightYears.includes(context.label);
           },
-          {
-            get: () => cfg.surface_color || defaultConfig.surface_color,
-            set: (value) => { cfg.surface_color = value; window.elementSdk.setConfig({ surface_color: value }); }
-          },
-          {
-            get: () => cfg.text_color || defaultConfig.text_color,
-            set: (value) => { cfg.text_color = value; window.elementSdk.setConfig({ text_color: value }); }
-          },
-          {
-            get: () => cfg.primary_action_color || defaultConfig.primary_action_color,
-            set: (value) => { cfg.primary_action_color = value; window.elementSdk.setConfig({ primary_action_color: value }); }
-          },
-          {
-            get: () => cfg.secondary_action_color || defaultConfig.secondary_action_color,
-            set: (value) => { cfg.secondary_action_color = value; window.elementSdk.setConfig({ secondary_action_color: value }); }
+          callbacks: {
+            label: function(context) {
+              return context.parsed.y + '%';
+            },
+            afterLabel: function(context) {
+              return tooltipNotes[context.label];
+            }
           }
-        ],
-        borderables: [],
-        fontEditable: {
-          get: () => cfg.font_family || defaultConfig.font_family,
-          set: (value) => { cfg.font_family = value; window.elementSdk.setConfig({ font_family: value }); }
-        },
-        fontSizeable: {
-          get: () => cfg.font_size || defaultConfig.font_size,
-          set: (value) => { cfg.font_size = value; window.elementSdk.setConfig({ font_size: value }); }
         }
-      };
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Percent Unemployed'
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Year'
+          }
+        }
+      }
     }
+  });
+</script>
 
-    function mapToEditPanelValues(cfg) {
-      return new Map([
-        ['chart_title', cfg.chart_title || defaultConfig.chart_title],
-        ['x_axis_label', cfg.x_axis_label || defaultConfig.x_axis_label],
-        ['y_axis_label', cfg.y_axis_label || defaultConfig.y_axis_label]
-      ]);
-    }
-
-    // Build the chart on load
-    buildChart();
-
-    // Initialize SDK
-    if (window.elementSdk) {
-      window.elementSdk.init({
-        defaultConfig,
-        onConfigChange,
-        mapToCapabilities,
-        mapToEditPanelValues
-      });
-      config = window.elementSdk.config || config;
-      onConfigChange(config);
-    } else {
-      onConfigChange(config);
-    }
-  </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9bcf107267216a4e',t:'MTc2ODI0NjE4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</body>
 </html>
