@@ -1,1 +1,18 @@
-https://static.pbslearningmedia.org/media/media_files/d3e5842c-42af-4eee-97c2-de65c4771875/1e6c6b77-ca79-4674-862d-e3bd6a8a546a.mp4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded Video</title>
+</head>
+<body>
+
+  <h2>Embedded PBS LearningMedia Video</h2>
+
+  <video width="800" height="450" controls>
+    <source src="https://static.pbslearningmedia.org/media/media_files/d3e5842c-42af-4eee-97c2-de65c4771875/1e6c6b77-ca79-4674-862d-e3bd6a8a546a.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+</body>
+</html>
