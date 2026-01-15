@@ -7,7 +7,7 @@
 <style>
   body {
     font-family: Arial, sans-serif;
-    background: #f2f2f2;
+    background: #e9eef3;
     margin: 0;
     padding: 40px 0;
   }
@@ -15,10 +15,18 @@
   .container {
     max-width: 900px;
     margin: auto;
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fdfefe;
+    padding: 28px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    border-top: 6px solid #1976d2;
+  }
+
+  h2 {
+    margin-top: 0;
+    color: #1f3a5f;
+    text-align: center;
+    letter-spacing: 0.5px;
   }
 
   svg {
@@ -27,19 +35,19 @@
   }
 
   .axis {
-    stroke: #333;
-    stroke-width: 1;
+    stroke: #2c3e50;
+    stroke-width: 1.2;
   }
 
   .grid {
-    stroke: #ccc;
+    stroke: #cfd8dc;
     stroke-dasharray: 4;
   }
 
   .line {
     fill: none;
     stroke: #1976d2;
-    stroke-width: 2;
+    stroke-width: 2.5;
   }
 
   .point {
@@ -48,7 +56,7 @@
 
   .highlight {
     fill: #d32f2f;
-    stroke: #000;
+    stroke: #333;
     stroke-width: 1.5;
   }
 
@@ -81,10 +89,10 @@
     <line x1="80" y1="420" x2="860" y2="420" class="axis"/>
 
     <!-- Y-axis labels -->
-    <text x="30" y="420">0%</text>
-    <text x="25" y="350">10%</text>
-    <text x="25" y="280">20%</text>
-    <text x="25" y="210">30%</text>
+    <text x="30" y="420" fill="#2c3e50">0%</text>
+    <text x="25" y="350" fill="#2c3e50">10%</text>
+    <text x="25" y="280" fill="#2c3e50">20%</text>
+    <text x="25" y="210" fill="#2c3e50">30%</text>
 
     <!-- Grid lines -->
     <line x1="80" y1="350" x2="860" y2="350" class="grid"/>
@@ -112,27 +120,27 @@
     />
 
     <!-- Data points -->
-    <circle cx="80"  cy="390" r="3" class="point"/>
-    <circle cx="140" cy="350" r="3" class="point"/>
-    <circle cx="200" cy="300" r="3" class="point"/>
-    <circle cx="260" cy="250" r="3" class="point"/>
-    <circle cx="320" cy="240" r="3" class="point"/>
-    <circle cx="380" cy="270" r="3" class="point"/>
-    <circle cx="440" cy="285" r="3" class="point"/>
-    <circle cx="500" cy="310" r="3" class="point"/>
-    <circle cx="560" cy="330" r="3" class="point"/>
-    <circle cx="620" cy="300" r="3" class="point"/>
-    <circle cx="680" cy="315" r="3" class="point"/>
-    <circle cx="740" cy="335" r="3" class="point"/>
-    <circle cx="800" cy="360" r="3" class="point"/>
-    <circle cx="860" cy="385" r="3" class="point"/>
+    <circle cx="80"  cy="390" r="3.5" class="point"/>
+    <circle cx="140" cy="350" r="3.5" class="point"/>
+    <circle cx="200" cy="300" r="3.5" class="point"/>
+    <circle cx="260" cy="250" r="3.5" class="point"/>
+    <circle cx="320" cy="240" r="3.5" class="point"/>
+    <circle cx="380" cy="270" r="3.5" class="point"/>
+    <circle cx="440" cy="285" r="3.5" class="point"/>
+    <circle cx="500" cy="310" r="3.5" class="point"/>
+    <circle cx="560" cy="330" r="3.5" class="point"/>
+    <circle cx="620" cy="300" r="3.5" class="point"/>
+    <circle cx="680" cy="315" r="3.5" class="point"/>
+    <circle cx="740" cy="335" r="3.5" class="point"/>
+    <circle cx="800" cy="360" r="3.5" class="point"/>
+    <circle cx="860" cy="385" r="3.5" class="point"/>
 
     <!-- 1933 Highlight -->
     <g class="highlight-group" tabindex="0">
       <circle cx="320" cy="240" r="7" class="highlight"/>
-      <rect x="290" y="190" width="170" height="40" rx="5"
-            fill="#fff" stroke="#000" class="tooltip"/>
-      <text x="300" y="215" class="tooltip" font-size="14">
+      <rect x="290" y="190" width="170" height="40" rx="6"
+            fill="#ffffff" stroke="#333" class="tooltip"/>
+      <text x="300" y="215" class="tooltip" font-size="14" fill="#000">
         1933: New Deal Begins
       </text>
     </g>
@@ -140,17 +148,17 @@
     <!-- 1941 Highlight -->
     <g class="highlight-group" tabindex="0">
       <circle cx="800" cy="360" r="7" class="highlight"/>
-      <rect x="630" y="310" width="230" height="40" rx="5"
-            fill="#fff" stroke="#000" class="tooltip"/>
-      <text x="640" y="335" class="tooltip" font-size="14">
+      <rect x="630" y="310" width="230" height="40" rx="6"
+            fill="#ffffff" stroke="#333" class="tooltip"/>
+      <text x="640" y="335" class="tooltip" font-size="14" fill="#000">
         1941: U.S. Joins World War II
       </text>
     </g>
 
     <!-- X-axis labels -->
-    <text x="65"  y="450">1929</text>
-    <text x="305" y="450">1933</text>
-    <text x="785" y="450">1941</text>
+    <text x="65"  y="450" fill="#2c3e50">1929</text>
+    <text x="305" y="450" fill="#2c3e50">1933</text>
+    <text x="785" y="450" fill="#2c3e50">1941</text>
   </svg>
 </div>
 
