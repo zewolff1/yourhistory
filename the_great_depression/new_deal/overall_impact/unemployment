@@ -7,8 +7,18 @@
 <style>
   body {
     font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 40px 0;
+  }
+
+  .container {
     max-width: 900px;
-    margin: 40px auto;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
   svg {
@@ -47,7 +57,8 @@
     pointer-events: none;
   }
 
-  .highlight-group:hover .tooltip {
+  .highlight-group:hover .tooltip,
+  .highlight-group:focus-within .tooltip {
     visibility: visible;
   }
 </style>
@@ -55,83 +66,93 @@
 
 <body>
 
-<h2>U.S. Unemployment During the Great Depression</h2>
+<div class="container">
+  <h2>U.S. Unemployment During the Great Depression</h2>
 
-<svg viewBox="0 0 900 500">
+  <svg viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+    <title id="title">U.S. Unemployment Rate, 1929–1943</title>
+    <desc id="desc">
+      Line graph showing unemployment rising sharply during the Great Depression,
+      peaking in 1933, and declining during World War II.
+    </desc>
 
-  <!-- Axes -->
-  <line x1="80" y1="50" x2="80" y2="420" class="axis"/>
-  <line x1="80" y1="420" x2="860" y2="420" class="axis"/>
+    <!-- Axes -->
+    <line x1="80" y1="50" x2="80" y2="420" class="axis"/>
+    <line x1="80" y1="420" x2="860" y2="420" class="axis"/>
 
-  <!-- Y-axis labels -->
-  <text x="30" y="420">0%</text>
-  <text x="25" y="350">10%</text>
-  <text x="25" y="280">20%</text>
-  <text x="25" y="210">30%</text>
+    <!-- Y-axis labels -->
+    <text x="30" y="420">0%</text>
+    <text x="25" y="350">10%</text>
+    <text x="25" y="280">20%</text>
+    <text x="25" y="210">30%</text>
 
-  <!-- Grid lines -->
-  <line x1="80" y1="350" x2="860" y2="350" class="grid"/>
-  <line x1="80" y1="280" x2="860" y2="280" class="grid"/>
-  <line x1="80" y1="210" x2="860" y2="210" class="grid"/>
+    <!-- Grid lines -->
+    <line x1="80" y1="350" x2="860" y2="350" class="grid"/>
+    <line x1="80" y1="280" x2="860" y2="280" class="grid"/>
+    <line x1="80" y1="210" x2="860" y2="210" class="grid"/>
 
-  <!-- Line path -->
-  <path class="line"
-    d="
-      M 80 390
-      L 140 350
-      L 200 300
-      L 260 250
-      L 320 240
-      L 380 270
-      L 440 285
-      L 500 310
-      L 560 330
-      L 620 300
-      L 680 315
-      L 740 335
-      L 800 360
-      L 860 385
-    "
-  />
+    <!-- Line path -->
+    <path class="line"
+      d="
+        M 80 390
+        L 140 350
+        L 200 300
+        L 260 250
+        L 320 240
+        L 380 270
+        L 440 285
+        L 500 310
+        L 560 330
+        L 620 300
+        L 680 315
+        L 740 335
+        L 800 360
+        L 860 385
+      "
+    />
 
-  <!-- Regular points -->
-  <circle cx="80"  cy="390" r="3" class="point"/>
-  <circle cx="140" cy="350" r="3" class="point"/>
-  <circle cx="200" cy="300" r="3" class="point"/>
-  <circle cx="260" cy="250" r="3" class="point"/>
-  <circle cx="380" cy="270" r="3" class="point"/>
-  <circle cx="440" cy="285" r="3" class="point"/>
-  <circle cx="500" cy="310" r="3" class="point"/>
-  <circle cx="560" cy="330" r="3" class="point"/>
-  <circle cx="620" cy="300" r="3" class="point"/>
-  <circle cx="680" cy="315" r="3" class="point"/>
-  <circle cx="740" cy="335" r="3" class="point"/>
-  <circle cx="860" cy="385" r="3" class="point"/>
+    <!-- Data points -->
+    <circle cx="80"  cy="390" r="3" class="point"/>
+    <circle cx="140" cy="350" r="3" class="point"/>
+    <circle cx="200" cy="300" r="3" class="point"/>
+    <circle cx="260" cy="250" r="3" class="point"/>
+    <circle cx="320" cy="240" r="3" class="point"/>
+    <circle cx="380" cy="270" r="3" class="point"/>
+    <circle cx="440" cy="285" r="3" class="point"/>
+    <circle cx="500" cy="310" r="3" class="point"/>
+    <circle cx="560" cy="330" r="3" class="point"/>
+    <circle cx="620" cy="300" r="3" class="point"/>
+    <circle cx="680" cy="315" r="3" class="point"/>
+    <circle cx="740" cy="335" r="3" class="point"/>
+    <circle cx="800" cy="360" r="3" class="point"/>
+    <circle cx="860" cy="385" r="3" class="point"/>
 
-  <!-- 1933 Highlight -->
-  <g class="highlight-group">
-    <circle cx="320" cy="240" r="7" class="highlight"/>
-    <rect x="290" y="190" width="160" height="40" rx="5" fill="#fff" stroke="#000" class="tooltip"/>
-    <text x="300" y="215" class="tooltip" font-size="14">
-      1933: New Deal Begins
-    </text>
-  </g>
+    <!-- 1933 Highlight -->
+    <g class="highlight-group" tabindex="0">
+      <circle cx="320" cy="240" r="7" class="highlight"/>
+      <rect x="290" y="190" width="170" height="40" rx="5"
+            fill="#fff" stroke="#000" class="tooltip"/>
+      <text x="300" y="215" class="tooltip" font-size="14">
+        1933: New Deal Begins
+      </text>
+    </g>
 
-  <!-- 1941 Highlight -->
-  <g class="highlight-group">
-    <circle cx="800" cy="360" r="7" class="highlight"/>
-    <rect x="630" y="310" width="210" height="40" rx="5" fill="#fff" stroke="#000" class="tooltip"/>
-    <text x="640" y="335" class="tooltip" font-size="14">
-      1941: U.S. Joins World War II
-    </text>
-  </g>
+    <!-- 1941 Highlight -->
+    <g class="highlight-group" tabindex="0">
+      <circle cx="800" cy="360" r="7" class="highlight"/>
+      <rect x="630" y="310" width="230" height="40" rx="5"
+            fill="#fff" stroke="#000" class="tooltip"/>
+      <text x="640" y="335" class="tooltip" font-size="14">
+        1941: U.S. Joins World War II
+      </text>
+    </g>
 
-  <!-- X-axis labels -->
-  <text x="70"  y="450">1929</text>
-  <text x="310" y="450">1933</text>
-  <text x="790" y="450">1941</text>
-
-</svg>
+    <!-- X-axis labels -->
+    <text x="65"  y="450">1929</text>
+    <text x="305" y="450">1933</text>
+    <text x="785" y="450">1941</text>
+  </svg>
+</div>
 
 </body>
 </html>
