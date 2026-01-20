@@ -203,10 +203,51 @@
           "assessment_link": "",
           "resource_tabs": [
             {
-              "name": "Tab 1",
+              "name": "Overview",
               "cards": [
                 {
-                  "name": "card 1",
+                  "name": "What is It",
+                  "icon": ""
+                },
+                {
+                  "name": "Elements of Fascism",
+                  "icon": ""
+                },
+                {
+                  "name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "",
+                  "icon": ""
+                }
+              ]
+            },
+            {
+              "name": "Fascist Leaders",
+              "cards": [
+                {
+                  "name": "Adolf Hitler",
+                  "icon": ""
+                },
+                {
+                  "name": "Joseph Stalin",
+                  "icon": ""
+                },
+                {
+                  "name": "Emperor Hirohito",
+                  "icon": ""
+                },
+                {
+                  "name": "Benito Mussolini",
+                  "icon": ""
+                },
+                {
+                  "name": "",
                   "icon": ""
                 }
               ]
