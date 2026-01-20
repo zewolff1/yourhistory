@@ -18,7 +18,7 @@
         {
           "lesson_title": "Progressive Solutions",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. ",
+            "Analyze how different political parties views impact people's lives. ",
             "Describe the effects that government interventions have people's lives"
           ],
           "notes_link": "",
@@ -26,27 +26,37 @@
         },
         {
           "lesson_title": "Women's Suffrage",
-          "objectives": [],
+          "objectives": [
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Women of Color",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Excluded From Reform",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Explain how governments create division among its people to advance its goals",
+            "Analyze how different political parties views impact people's lives. ",
+            "Explain how governments create division among its people to advance its goals",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
           ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "DuBois and Washington",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Analyze how different political parties views impact people's lives. "
+          ],
           "notes_link": "",
           "assessment_link": ""
         }
@@ -58,7 +68,8 @@
         {
           "lesson_title": "Imperialism",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. ",
+            "Describe the effects that government interventions have people's lives"
           ],
           "notes_link": "",
           "assessment_link": ""
@@ -88,7 +99,9 @@
       "lessons": [
         {
           "lesson_title": "1920s Culture",
-          "objectives": [],
+          "objectives": [
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -100,13 +113,19 @@
         },
         {
           "lesson_title": "Jack Johnson",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Tulsa Massacre",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -119,14 +138,15 @@
       ]
     },
     {
-      "unit_name": "The Great Depression",
+      "unit_name": "Great Depression",
       "lessons": [
         {
           "lesson_title": "Causes of the Great Depression",
           "objectives": [
-            "Describe how external factors affect the economy"
+            "Describe how external factors affect the economy",
+            "Describe how governments use and allow discrimination to decide who keeps power"
           ],
-          "notes_link": "https://docs.google.com/document/d/1z-MUjz5I2-EUeenfoBt8JJgZZlymESH-eCQzDVLUCMI/edit?usp=sharing",
+          "notes_link": "",
           "assessment_link": ""
         },
         {
@@ -134,25 +154,24 @@
           "objectives": [
             "Describe how government policies impact peoples' income and lives"
           ],
-          "notes_link": "https://docs.google.com/document/d/1jLnkd3I6TaL0Y3am-6Pe9YbpTjKxK_6RSI0UL0tEP00/edit?usp=sharing",
+          "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Hoover vs Roosevelt",
+          "lesson_title": "Hoover vs. Roosevelt",
           "objectives": [
             "Describe how government policies impact peoples' income and lives",
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. "
           ],
-          "notes_link": "https://docs.google.com/document/d/1cKXx38ANo6-URZD9IS_9xUCe3mZMcjZtTi-Z4GPg6-o/edit?usp=sharing",
+          "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "New Deal",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. ",
             "Describe the effects that government interventions have people's lives"
           ],
-          "notes_link": "https://docs.google.com/document/d/1hxxEEvpRINfuinoyY833MwzoWVFx76fMCaUkNxDjOJY/edit?usp=sharing",
+          "notes_link": "",
           "assessment_link": ""
         }
       ]
@@ -161,50 +180,71 @@
       "unit_name": "Holocaust",
       "lessons": [
         {
-          "lesson_title": "Rise of Dictators",
-          "objectives": [],
+          "lesson_title": "Rise of Fascism",
+          "objectives": [
+            "Analyze how different political parties views impact people's lives. ",
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "What is Anti-Semitism?",
-          "objectives": [],
+          "lesson_title": "Elements of Genocide",
+          "objectives": [
+            "Describe how authoritarian governments conduct genocides",
+            "Analyze how different political parties views impact people's lives. "
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Nazi Party Platform",
-          "objectives": [],
+          "lesson_title": "Classification and Symbolisation",
+          "objectives": [
+            "Explain how governments create division among its people to advance its goals",
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Propaganda",
-          "objectives": [],
+          "lesson_title": "Discrimination and Dehumnization",
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Daily Life",
-          "objectives": [],
+          "lesson_title": "Organisation and Polarisation",
+          "objectives": [
+            "Explain how propaganda and disinformation affects people's lives"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Book Burnings & Kristallnacht",
-          "objectives": [],
+          "lesson_title": "Preperation and Persecution",
+          "objectives": [
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Phases of the Holocaust",
-          "objectives": [],
+          "lesson_title": "Extermination",
+          "objectives": [
+            "Describe how genocide culminates into extermination",
+            "Analyze how different political parties views impact people's lives. "
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Resistance",
-          "objectives": [],
+          "lesson_title": "Denial",
+          "objectives": [
+            "Describe the causes and effects of people denying genocide and other aspects of history. "
+          ],
           "notes_link": "",
           "assessment_link": ""
         }
@@ -230,20 +270,26 @@
         {
           "lesson_title": "Japanese Internment Camps",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. ",
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
           ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "War in Europe",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "War in Pacific",
-          "objectives": [],
+          "objectives": [
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -266,13 +312,18 @@
         },
         {
           "lesson_title": "Space Race",
-          "objectives": [],
+          "objectives": [
+            "Describe how external factors affect the economy"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "McCarthyism",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -290,7 +341,7 @@
         {
           "lesson_title": "Vietnam War Starts",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. "
           ],
           "notes_link": "",
           "assessment_link": ""
@@ -303,7 +354,9 @@
         },
         {
           "lesson_title": "Vietnam War Protests",
-          "objectives": [],
+          "objectives": [
+            "Describe how government policies impact peoples' income and lives"
+          ],
           "notes_link": "",
           "assessment_link": ""
         }
@@ -314,19 +367,28 @@
       "lessons": [
         {
           "lesson_title": "Emmett Till",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Lunch Counter Sit-Ins",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Montgomery Bus Boycott",
-          "objectives": [],
+          "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -338,17 +400,22 @@
         },
         {
           "lesson_title": "March on Washington",
-          "objectives": [],
+          "objectives": [
+            "Describe how government policies impact peoples' income and lives"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "School Desegregation",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. ",
-            "Describe the effects that government interventions have people's lives"
+            "Analyze how different political parties views impact people's lives. ",
+            "Describe the effects that government interventions have people's lives",
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Explain how governments create division among its people to advance its goals",
+            "Analyze how different political parties views impact people's lives. "
           ],
-          "notes_link": "",
+          "notes_link": "Describe how discriminated groups are persecuted in order for majority groups to keep power",
           "assessment_link": ""
         },
         {
@@ -366,7 +433,8 @@
         {
           "lesson_title": "Equal Rights Amendment",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. ",
+            "Describe how governments use and allow discrimination to decide who keeps power"
           ],
           "notes_link": "",
           "assessment_link": ""
@@ -385,20 +453,25 @@
         {
           "lesson_title": "Anti-LGBTQ+ Legislation",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. ",
+            "Describe how governments use and allow discrimination to decide who keeps power"
           ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Before Stonewall",
-          "objectives": [],
+          "objectives": [
+            "Describe the effects that government interventions have people's lives"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
           "lesson_title": "Stonewall Uprising",
-          "objectives": [],
+          "objectives": [
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -411,15 +484,18 @@
         {
           "lesson_title": "AIDS Crisis",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. ",
+            "Analyze how different political parties views impact people's lives. "
           ],
           "notes_link": "",
           "assessment_link": ""
         },
         {
-          "lesson_title": "Don’t Ask Don’t Tell",
+          "lesson_title": "Don?t Ask Don?t Tell",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. ",
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Explain how governments create division among its people to advance its goals"
           ],
           "notes_link": "",
           "assessment_link": ""
@@ -451,7 +527,9 @@
         },
         {
           "lesson_title": "Clinton & Crime",
-          "objectives": [],
+          "objectives": [
+            "Describe how authoritarian governments conduct genocides"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -464,7 +542,7 @@
         {
           "lesson_title": "Patriot Act",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. "
           ],
           "notes_link": "",
           "assessment_link": ""
@@ -473,7 +551,7 @@
           "lesson_title": "Housing Market Crash",
           "objectives": [
             "Describe how external factors affect the economy",
-            "Analyze how different political parties views impact Americans' lives. ",
+            "Analyze how different political parties views impact people's lives. ",
             "Describe the effects that government interventions have people's lives"
           ],
           "notes_link": "",
@@ -487,7 +565,9 @@
         },
         {
           "lesson_title": "Election of Trump",
-          "objectives": [],
+          "objectives": [
+            "Explain how governments create division among its people to advance its goals"
+          ],
           "notes_link": "",
           "assessment_link": ""
         },
@@ -500,7 +580,7 @@
         {
           "lesson_title": "Climate Change",
           "objectives": [
-            "Analyze how different political parties views impact Americans' lives. "
+            "Analyze how different political parties views impact people's lives. "
           ],
           "notes_link": "",
           "assessment_link": ""
