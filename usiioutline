@@ -203,15 +203,11 @@
           "assessment_link": "",
           "resource_tabs": [
             {
-              "name": "Group A",
+              "name": "Tab 1",
               "cards": [
                 {
-                  "name": "What Was It",
-                  "icon": "fa-regular fa-book-open-reader"
-                },
-                {
-                  "name": "Effects",
-                  "icon": "fa-regular fa-book-open-reader"
+                  "name": "card 1",
+                  "icon": ""
                 }
               ]
             }
@@ -537,7 +533,7 @@
           "resource_tabs": []
         },
         {
-          "lesson_title": "Don?t Ask Don?t Tell",
+          "lesson_title": "Don’t Ask Don’t Tell",
           "objectives": [
             "Analyze how different political parties views impact people's lives. ",
             "Describe how governments use and allow discrimination to decide who keeps power",
@@ -612,29 +608,6 @@
         {
           "lesson_title": "Obama",
           "objectives": [],
-          "notes_link": "",
-          "assessment_link": "",
-          "resource_tabs": []
-        },
-        {
-          "lesson_title": "Election of Trump",
-          "objectives": [],
-          "notes_link": "",
-          "assessment_link": "",
-          "resource_tabs": []
-        },
-        {
-          "lesson_title": "2020 Election",
-          "objectives": [],
-          "notes_link": "",
-          "assessment_link": "",
-          "resource_tabs": []
-        },
-        {
-          "lesson_title": "Climate Change",
-          "objectives": [
-            "Analyze how different political parties views impact people's lives. "
-          ],
           "notes_link": "",
           "assessment_link": "",
           "resource_tabs": []
