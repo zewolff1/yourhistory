@@ -291,11 +291,33 @@
           "resource_tabs": [
             {
               "name": "Shaping Public Opinion",
-              "cards": []
+              "cards": [
+                {
+                  "name": "Reasons for Propaganda",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Targetting Jews",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Targetting Gay Men",
+                  "icon_name": "",
+                  "icon": ""
+                }
+              ]
             },
             {
               "name": "Classification",
-              "cards": []
+              "cards": [
+                {
+                  "name": "Nuremburg Laws",
+                  "icon_name": "",
+                  "icon": ""
+                }
+              ]
             }
           ]
         },
