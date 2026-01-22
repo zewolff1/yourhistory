@@ -253,10 +253,10 @@
           "assessment_link": "",
           "resource_tabs": [
             {
-              "name": "Elements of Genocide",
+              "name": "Overview",
               "cards": [
                 {
-                  "name": "Overview",
+                  "name": "Stages of Genocide",
                   "icon_name": "",
                   "icon": ""
                 }
