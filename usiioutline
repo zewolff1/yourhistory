@@ -253,10 +253,10 @@
           "assessment_link": "",
           "resource_tabs": [
             {
-              "name": "Overview",
+              "name": "Elements of Genocide",
               "cards": [
                 {
-                  "name": "Stages of Genocide",
+                  "name": "Overview",
                   "icon_name": "",
                   "icon": ""
                 }
@@ -280,58 +280,82 @@
           ]
         },
         {
-          "lesson_title": "Classification and Symbolisation",
-          "objectives": [
-            "Explain how governments create division among its people to advance its goals"
-          ],
-          "notes_link": "",
-          "assessment_link": "",
-          "resource_tabs": []
-        },
-        {
           "lesson_title": "Discrimination and Dehumanization",
           "objectives": [
-            "Describe how governments use and allow discrimination to decide who keeps power"
-          ],
-          "notes_link": "",
-          "assessment_link": "",
-          "resource_tabs": []
-        },
-        {
-          "lesson_title": "Organisation and Polarisation",
-          "objectives": [
+            "Explain how governments create division among its people to advance its goals",
+            "Describe how governments use and allow discrimination to decide who keeps power",
             "Explain how propaganda and disinformation affects people's lives"
           ],
           "notes_link": "",
           "assessment_link": "",
-          "resource_tabs": []
+          "resource_tabs": [
+            {
+              "name": "Shaping Public Opinion",
+              "cards": []
+            },
+            {
+              "name": "Classification",
+              "cards": []
+            }
+          ]
         },
         {
-          "lesson_title": "Preperation and Persecution",
+          "lesson_title": "Propaganda and Indoctrination",
           "objectives": [
+            "Describe how governments use and allow discrimination to decide who keeps power",
+            "Explain how propaganda and disinformation affects people's lives",
             "Describe how discriminated groups are persecuted in order for majority groups to keep power"
           ],
           "notes_link": "",
           "assessment_link": "",
-          "resource_tabs": []
+          "resource_tabs": [
+            {
+              "name": "Propaganda",
+              "cards": []
+            },
+            {
+              "name": "Hitler Youth",
+              "cards": []
+            }
+          ]
         },
         {
-          "lesson_title": "Extermination",
+          "lesson_title": "Persecution and Censorship",
           "objectives": [
-            "Describe how genocide culminates into extermination"
+            "Explain how propaganda and disinformation affects people's lives",
+            "Describe how discriminated groups are persecuted in order for majority groups to keep power"
           ],
           "notes_link": "",
           "assessment_link": "",
-          "resource_tabs": []
+          "resource_tabs": [
+            {
+              "name": "Book Burnings",
+              "cards": []
+            },
+            {
+              "name": "Night of Broken Glass",
+              "cards": []
+            }
+          ]
         },
         {
-          "lesson_title": "Denial",
+          "lesson_title": "Extermination and Denial",
           "objectives": [
+            "Describe how genocide culminates into extermination",
             "Describe the causes and effects of people denying genocide and other aspects of history. "
           ],
           "notes_link": "",
           "assessment_link": "",
-          "resource_tabs": []
+          "resource_tabs": [
+            {
+              "name": "Killing Camps",
+              "cards": []
+            },
+            {
+              "name": "Denial of the Holocaust",
+              "cards": []
+            }
+          ]
         }
       ]
     },
