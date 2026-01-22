@@ -150,7 +150,7 @@
       ]
     },
     {
-      "unit_name": "Great Depression",
+      "unit_name": "The Great Depression",
       "lessons": [
         {
           "lesson_title": "Causes of the Great Depression",
@@ -192,14 +192,14 @@
       ]
     },
     {
-      "unit_name": "The Holocaust",
+      "unit_name": "Holocaust",
       "lessons": [
         {
           "lesson_title": "Rise of Fascism",
           "objectives": [
             "Analyze how different political parties views impact people's lives. "
           ],
-          "notes_link": "",
+          "notes_link": "https://docs.google.com/document/d/1LlLmwDiO-kqQXQDQ6tPcJYPqs1qNYppn3ZDb2tkIVvo/edit?usp=sharing",
           "assessment_link": "",
           "resource_tabs": [
             {
@@ -207,47 +207,37 @@
               "cards": [
                 {
                   "name": "What is It",
+                  "icon_name": "",
                   "icon": ""
                 },
                 {
                   "name": "Elements of Fascism",
-                  "icon": ""
-                },
-                {
-                  "name": "",
-                  "icon": ""
-                },
-                {
-                  "name": "",
-                  "icon": ""
-                },
-                {
-                  "name": "",
+                  "icon_name": "",
                   "icon": ""
                 }
               ]
             },
             {
-              "name": "Fascist Rulers",
+              "name": "Fascist Leaders",
               "cards": [
                 {
                   "name": "Adolf Hitler",
+                  "icon_name": "",
                   "icon": ""
                 },
                 {
                   "name": "Joseph Stalin",
+                  "icon_name": "",
                   "icon": ""
                 },
                 {
                   "name": "Emperor Hirohito",
+                  "icon_name": "",
                   "icon": ""
                 },
                 {
                   "name": "Benito Mussolini",
-                  "icon": ""
-                },
-                {
-                  "name": "",
+                  "icon_name": "",
                   "icon": ""
                 }
               ]
@@ -261,7 +251,33 @@
           ],
           "notes_link": "",
           "assessment_link": "",
-          "resource_tabs": []
+          "resource_tabs": [
+            {
+              "name": "Elements of Genocide",
+              "cards": [
+                {
+                  "name": "Overview",
+                  "icon_name": "",
+                  "icon": ""
+                }
+              ]
+            },
+            {
+              "name": "The Nazi Party",
+              "cards": [
+                {
+                  "name": "Hitler Takes Power",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Nazi Party Platform",
+                  "icon_name": "",
+                  "icon": ""
+                }
+              ]
+            }
+          ]
         },
         {
           "lesson_title": "Classification and Symbolisation",
