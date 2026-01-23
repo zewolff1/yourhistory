@@ -333,11 +333,43 @@
           "resource_tabs": [
             {
               "name": "Propaganda",
-              "cards": []
+              "cards": [
+                {
+                  "name": "Impact of Propaganda",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Nazi Recruitment Propaganda",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Propaganda Portrait of Hitler",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Antisemitic Children's Book",
+                  "icon_name": "",
+                  "icon": ""
+                }
+              ]
             },
             {
               "name": "Hitler Youth",
-              "cards": []
+              "cards": [
+                {
+                  "name": "Joining Hitler Youth",
+                  "icon_name": "",
+                  "icon": ""
+                },
+                {
+                  "name": "Photos of Hitler Youth",
+                  "icon_name": "",
+                  "icon": ""
+                }
+              ]
             }
           ]
         },
