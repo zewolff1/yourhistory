@@ -1,0 +1,16 @@
+{
+  "the_holocaust": [
+    {
+      "name": "rise_of_fascism",
+      "groups": [
+        {
+          "name": "fascist_rulers",
+          "cards": [
+            "adolf_hitler",
+            "benito_mussolini"
+          ]
+        }
+      ]
+    }
+  ]
+}
