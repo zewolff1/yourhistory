@@ -1,0 +1,18 @@
+{
+  "usii/unit1": {
+    "icon": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/usii/unit1/icon.png"
+  },
+  "usii/unit1/lessonA": {
+    "icon": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/usii/unit1/lessonA/icon.png"
+  },
+  "usii/unit1/lessonA/tabX": {
+    "icon": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/usii/unit1/lessonA/tabX/icon.png"
+  },
+  "usii/unit1/lessonA/tabX/cardY": {
+    "icon": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/usii/unit1/lessonA/tabX/cardY/icon.png",
+    "bg": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/usii/unit1/lessonA/tabX/cardY/bgimage.png"
+  },
+  "usii/unit2": {
+    "icon": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/usii/unit2/icon.png"
+  }
+}
