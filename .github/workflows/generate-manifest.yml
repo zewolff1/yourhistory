@@ -1,4 +1,4 @@
-# Generates usii/manifest.json by walking the usii/ folder and opens a PR if it changed.
+# Generates usii/manifest.json by walking the usii/ folder and opens a PR gif it changed.
 # Single-file solution (no external script files required).
 name: Generate usii manifest
 
