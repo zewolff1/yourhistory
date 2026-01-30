@@ -29,7 +29,7 @@ jobs:
           ROOT = Path('usii')
           OUT = ROOT / 'manifest.json'
 
-          def strip_prefix(n): return re.sub(r'^\d+[_-]', '', n)
+          def strip_prefix(n): return re.sub(r'^[0;32m\d+[_-]', '', n)
           def snake_to_title(n): return ' '.join(w.capitalize() for w in strip_prefix(n).replace('_',' ').split())
 
           ICON_NAMES = ['icon.png','icon.svg','icon.jpg','icon.jpeg','bgimage.png','bgimage.jpg','bgimage.jpeg']
