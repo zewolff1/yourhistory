@@ -1,11 +1,13 @@
-# Place at: .github/workflows/generate-manifest.yml
 name: Generate usii manifest
+
 on:
   push:
     paths:
       - 'usii/**'
       - '.github/scripts/generate-manifest.js'
       - '.github/workflows/generate-manifest.yml'
+  workflow_dispatch: {}
+
 permissions:
   contents: write
 
@@ -17,20 +19,46 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
+
       - name: Run generator
         run: node .github/scripts/generate-manifest.js
+
+      - name: Debug: show generated manifest & git status
+        run: |
+          echo "---- workdir ----"
+          pwd
+          echo "---- usii listing ----"
+          ls -la usii || true
+          echo "---- manifest preview (first 200 lines) ----"
+          if [ -f usii/manifest.json ]; then
+            sed -n '1,200p' usii/manifest.json
+          else
+            echo "usii/manifest.json not found"
+          fi
+          echo "---- git status (porcelain) ----"
+          git status --porcelain -uall || true
+          echo "---- git ls-files (check if tracked) ----"
+          git ls-files | grep 'usii/manifest.json' || echo "not tracked"
+          echo "---- git diff ----"
+          git --no-pager diff || true
+
       - name: Commit manifest if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet; then
+          # stage the manifest (if present)
+          if [ -f usii/manifest.json ]; then
             git add usii/manifest.json
+          fi
+          # check staged changes (works for new and modified files)
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
             git commit -m "chore: update usii/manifest.json [skip ci]" || echo "commit failed"
             git push
-          else
-            echo "No changes"
           fi
