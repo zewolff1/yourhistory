@@ -1,0 +1,36 @@
+# Place at: .github/workflows/generate-manifest.yml
+name: Generate usii manifest
+on:
+  push:
+    paths:
+      - 'usii/**'
+      - '.github/scripts/generate-manifest.js'
+      - '.github/workflows/generate-manifest.yml'
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Run generator
+        run: node .github/scripts/generate-manifest.js
+      - name: Commit manifest if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add usii/manifest.json
+            git commit -m "chore: update usii/manifest.json [skip ci]" || echo "commit failed"
+            git push
+          else
+            echo "No changes"
+          fi
