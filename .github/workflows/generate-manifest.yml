@@ -29,8 +29,10 @@ jobs:
           ROOT = Path('usii')
           OUT = ROOT / 'manifest.json'
 
-          def strip_prefix(n): return re.sub(r'^[0;32m\d+[_-]', '', n)
-          def snake_to_title(n): return ' '.join(w.capitalize() for w in strip_prefix(n).replace('_',' ').split())
+          def strip_prefix(n):
+              return re.sub(r'^\d+[_-]', '', n)
+          def snake_to_title(n):
+              return ' '.join(w.capitalize() for w in strip_prefix(n).replace('_',' ').split())
 
           ICON_NAMES = ['icon.png','icon.svg','icon.jpg','icon.jpeg','bgimage.png','bgimage.jpg','bgimage.jpeg']
 
@@ -43,12 +45,14 @@ jobs:
           def read_caption(path, basename):
               cap = path / f"{basename}.caption"
               if cap.exists():
-                  try: return cap.read_text(encoding='utf8').strip()
-                  except: return None
+                  try:
+                      return cap.read_text(encoding='utf8').strip()
+                  except:
+                      return None
               return None
 
           def list_media_files(card_path):
-              files=[]
+              files = []
               if not card_path.exists(): return files
               for p in sorted(card_path.iterdir(), key=lambda x: x.name):
                   if p.is_file() and re.search(r'\.(png|jpe?g|mp4|svg)$', p.name, re.I) and not re.match(r'^bgimage\.', p.name, re.I):
@@ -63,23 +67,39 @@ jobs:
 
           for unit in sorted([d for d in ROOT.iterdir() if d.is_dir()], key=lambda p: p.name):
               unit_icon = find_first(unit, ICON_NAMES)
-              unit_obj = {'name': unit.name, 'title': snake_to_title(unit.name),
-                          'icon': str(Path('usii')/unit.name/unit_icon) if unit_icon else None, 'lessons': []}
+              unit_obj = {
+                  'name': unit.name,
+                  'title': snake_to_title(unit.name),
+                  'icon': str(Path('usii') / unit.name / unit_icon) if unit_icon else None,
+                  'lessons': []
+              }
               for lesson in sorted([d for d in unit.iterdir() if d.is_dir()], key=lambda p: p.name):
                   lesson_icon = find_first(lesson, ICON_NAMES)
-                  lesson_obj = {'name': lesson.name, 'title': snake_to_title(lesson.name),
-                                'icon': str(Path('usii')/unit.name/lesson.name/lesson_icon) if lesson_icon else None, 'tabs': []}
+                  lesson_obj = {
+                      'name': lesson.name,
+                      'title': snake_to_title(lesson.name),
+                      'icon': str(Path('usii') / unit.name / lesson.name / lesson_icon) if lesson_icon else None,
+                      'tabs': []
+                  }
                   for tab in sorted([d for d in lesson.iterdir() if d.is_dir()], key=lambda p: p.name):
                       tab_icon = find_first(tab, ICON_NAMES)
-                      tab_obj = {'name': tab.name, 'title': snake_to_title(tab.name),
-                                 'icon': str(Path('usii')/unit.name/lesson.name/tab.name/tab_icon) if tab_icon else None, 'cards': []}
+                      tab_obj = {
+                          'name': tab.name,
+                          'title': snake_to_title(tab.name),
+                          'icon': str(Path('usii') / unit.name / lesson.name / tab.name / tab_icon) if tab_icon else None,
+                          'cards': []
+                      }
                       for card in sorted([d for d in tab.iterdir() if d.is_dir()], key=lambda p: p.name):
                           bg = find_first(card, ['bgimage.png','bgimage.jpg','bgimage.jpeg'])
                           media = list_media_files(card)
                           has_writing = (card / 'writing').is_file()
-                          card_obj = {'name': card.name, 'title': snake_to_title(card.name),
-                                      'bgimage': str(Path('usii')/unit.name/lesson.name/tab.name/card.name/bg) if bg else None,
-                                      'has_writing': bool(has_writing), 'media': media}
+                          card_obj = {
+                              'name': card.name,
+                              'title': snake_to_title(card.name),
+                              'bgimage': str(Path('usii') / unit.name / lesson.name / tab.name / card.name / bg) if bg else None,
+                              'has_writing': bool(has_writing),
+                              'media': media
+                          }
                           tab_obj['cards'].append(card_obj)
                       lesson_obj['tabs'].append(tab_obj)
                   unit_obj['lessons'].append(lesson_obj)
@@ -88,8 +108,10 @@ jobs:
           new_text = json.dumps(manifest, indent=2) + "\n"
           old_text = None
           if OUT.exists():
-              try: old_text = OUT.read_text(encoding='utf8')
-              except: old_text = None
+              try:
+                  old_text = OUT.read_text(encoding='utf8')
+              except:
+                  old_text = None
           if old_text == new_text:
               print("UNCHANGED")
           else:
