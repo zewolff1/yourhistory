@@ -1,5 +1,3 @@
-# Generates usii/manifest.json by walking the usii/ folder and opens a PR gif it changed.
-# Single-file solution (no external script files required).
 name: Generate usii manifest
 
 on:
@@ -32,7 +30,7 @@ jobs:
           OUT = ROOT / 'manifest.json'
 
           def strip_prefix(n):
-              return re.sub(r'^\d+[_-]', '', n)
+              return re.sub(r'^[0;34m\d+[_-]', '', n)
           def snake_to_title(n):
               return ' '.join(w.capitalize() for w in strip_prefix(n).replace('_',' ').split())
 
