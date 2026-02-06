@@ -1,10 +1,51 @@
 {
+  "american_colonies": {
+    "lessons": {
+      "coming_soon": {
+        "objectives": [],
+        "groups": {
+          "coming_soon": {
+            "coming_soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "american_revolution": {
+    "lessons": {
+      "coming_soon": {
+        "objectives": [],
+        "groups": {
+          "coming_soon": {
+            "coming_soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "a_new_nation": {
+    "lessons": {
+      "coming_soon": {
+        "objectives": [],
+        "groups": {
+          "coming_soon": {
+            "coming_soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
   "westward_expansion": {
     "lessons": {
       "louisiana_purchase": {
         "objectives": [
-          "Explain the causes and effects of the Louisiana Purchase",
-          "Describe how westward expansion affected Americans and Indigenous Nations"
+          "Explain the causes and effects of the War of 1812 and its impact on the nation."
         ],
         "groups": {
           "westward_expansion": {
@@ -80,7 +121,8 @@
       },
       "war_of_1812": {
         "objectives": [
-          "Explain the causes and effects of the War of 1812 and its impact on the nation."
+          "Explain how different beliefs and ideas influenced attitudes toward westward expansion.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
         ],
         "groups": {
           "reasons_for_war": {
@@ -138,8 +180,7 @@
       },
       "attitudes_towards_expansion": {
         "objectives": [
-          "Explain how different beliefs and ideas influenced attitudes toward westward expansion.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain how new inventions changed transportation, communication, and industry."
         ],
         "groups": {
           "monroe_doctrine": {
@@ -166,7 +207,8 @@
       },
       "new_inventions": {
         "objectives": [
-          "Explain how new inventions changed transportation, communication, and industry."
+          "Explain the causes and effects of Native American removal and the Trail of Tears.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
         ],
         "groups": {
           "transportation_revolution": {
@@ -188,8 +230,7 @@
       },
       "trail_of_tears": {
         "objectives": [
-          "Explain the causes and effects of Native American removal and the Trail of Tears.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain the causes and effects of the war between the United States and Mexico."
         ],
         "groups": {
           "opinions_on_removal": {
@@ -211,7 +252,7 @@
       },
       "war_with_mexico": {
         "objectives": [
-          "Explain the causes and effects of the war between the United States and Mexico."
+          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
         ],
         "groups": {
           "causes": {
@@ -227,9 +268,7 @@
         }
       },
       "gold_rush": {
-        "objectives": [
-          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
-        ],
+        "objectives": [],
         "groups": {
           "motivations_for_migration": {
             "Card1": {
@@ -248,6 +287,48 @@
           },
           "lgbtq+_people_in_the_gold_rush": {
             "Card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "abolition": {
+    "lessons": {
+      "coming_soon": {
+        "objectives": [],
+        "groups": {
+          "coming_soon": {
+            "coming_soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "civil_war": {
+    "lessons": {
+      "coming_soon": {
+        "objectives": [],
+        "groups": {
+          "coming_soon": {
+            "coming_soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "reconstruction": {
+    "lessons": {
+      "coming_soon": {
+        "objectives": [],
+        "groups": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
