@@ -135,6 +135,123 @@
             }
           }
         }
+      },
+      "attitudes_towards_expansion": {
+        "objectives": [
+          "Explain how different beliefs and ideas influenced attitudes toward westward expansion.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+        ],
+        "groups": {
+          "monroe_doctrine": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "manifest_destiny": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "nationalism": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "white_supremacy": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "new_inventions": {
+        "objectives": [
+          "Explain how new inventions changed transportation, communication, and industry."
+        ],
+        "groups": {
+          "transportation_revolution": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "interchangable_parts": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "telegraph": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "trail_of_tears": {
+        "objectives": [
+          "Explain the causes and effects of Native American removal and the Trail of Tears.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+        ],
+        "groups": {
+          "opinions_on_removal": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "causes_of_removal": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "effects_of_removal": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "war_with_mexico": {
+        "objectives": [
+          "Explain the causes and effects of the war between the United States and Mexico."
+        ],
+        "groups": {
+          "causes": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "effects": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "gold_rush": {
+        "objectives": [
+          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
+        ],
+        "groups": {
+          "motivations_for_migration": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "lives_of_miners": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "effects_of_gold_rush": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          },
+          "lgbtq+_people_in_the_gold_rush": {
+            "Card1": {
+              "mediaFiles": []
+            }
+          }
+        }
       }
     }
   }
