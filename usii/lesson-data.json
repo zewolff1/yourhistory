@@ -1,4 +1,60 @@
 {
+  "progressive_era": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "end_of_isolationism": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "roaring_20s": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "great_depression": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
   "the_holocaust": {
     "lessons": {
       "rise_of_fascism": {
@@ -260,6 +316,62 @@
         "groups": {
           "war_starts_in_europe": {
             "what_happened": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "cold_war": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "civil_rights": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "protest_movements": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "modern_period": {
+    "lessons": {
+      "coming soon": {
+        "objectives": [],
+        "groups": {
+          "coming soon": {
+            "coming soon": {
               "mediaFiles": []
             }
           }
