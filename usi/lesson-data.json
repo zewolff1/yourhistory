@@ -1,0 +1,141 @@
+{
+  "westward_expansion": {
+    "lessons": {
+      "louisiana_purchase": {
+        "objectives": [
+          "Explain the causes and effects of the Louisiana Purchase",
+          "Describe how westward expansion affected Americans and Indigenous Nations"
+        ],
+        "groups": {
+          "westward_expansion": {
+            "what_is_westward_expansion": {
+              "mediaFiles": []
+            },
+            "what_is_manifest_destiny": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Manifest Destiny.jpg",
+                  "caption": ""
+                }
+              ]
+            }
+          },
+          "overview": {
+            "louisiana_purchase": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Map of Louisiana Purchase.png",
+                  "caption": ""
+                },
+                {
+                  "type": "video",
+                  "url": "lousianapurchase.mp4",
+                  "caption": ""
+                }
+              ]
+            }
+          },
+          "causes": {
+            "reasons_for_purchase": {
+              "mediaFiles": []
+            },
+            "constitutionality_of_expansion": {
+              "mediaFiles": []
+            },
+            "reasons_france_sold": {
+              "mediaFiles": []
+            }
+          },
+          "effects": {
+            "changes_in_territory": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Map of Louisiana Purchase.png",
+                  "caption": ""
+                }
+              ]
+            },
+            "effects_on_indigenous_people": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Indigenous Nations after Purchase.png",
+                  "caption": ""
+                },
+                {
+                  "type": "video",
+                  "url": "Loss of Indigenous Land.mp4",
+                  "caption": ""
+                }
+              ]
+            },
+            "precedents_set": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "war_of_1812": {
+        "objectives": [
+          "Explain the causes and effects of the War of 1812 and its impact on the nation."
+        ],
+        "groups": {
+          "reasons_for_war": {
+            "impressment": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "bgimage.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "conflicts_with_indigenous_people": {
+              "mediaFiles": []
+            },
+            "trade_restrictions": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "British Blockade.png",
+                  "caption": ""
+                }
+              ]
+            }
+          },
+          "fighting_the_war": {
+            "battles": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Major Battles of the War of 1812.webp",
+                  "caption": ""
+                }
+              ]
+            },
+            "burning_of_white_house": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "White House Burning during the War of 1812.webp",
+                  "caption": ""
+                }
+              ]
+            }
+          },
+          "outcome_of_war": {
+            "who_won": {
+              "mediaFiles": []
+            },
+            "battle_of_new_orleans": {
+              "mediaFiles": []
+            }
+          }
+        }
+      }
+    }
+  }
+}
