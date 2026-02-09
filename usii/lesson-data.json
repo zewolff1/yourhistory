@@ -310,12 +310,70 @@
   "world_war_ii": {
     "lessons": {
       "american_isolationism": {
-        "objectives": [
-          "Worked Again"
-        ],
+        "objectives": [],
         "groups": {
           "war_starts_in_europe": {
             "what_happened": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "american_homefront": {
+        "objectives": [],
+        "groups": {
+          "group1": {
+            "card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "japanese-american_internment": {
+        "objectives": [],
+        "groups": {
+          "group1": {
+            "card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "black_american_contributions": {
+        "objectives": [],
+        "groups": {
+          "group1": {
+            "card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "war_in_europe": {
+        "objectives": [],
+        "groups": {
+          "group1": {
+            "card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "war_in_pacific": {
+        "objectives": [],
+        "groups": {
+          "group1": {
+            "card1": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "atomic_bomb": {
+        "objectives": [],
+        "groups": {
+          "group1": {
+            "card1": {
               "mediaFiles": []
             }
           }
