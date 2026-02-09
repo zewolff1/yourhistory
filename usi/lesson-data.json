@@ -178,9 +178,50 @@
           }
         }
       },
-      "attitudes_towards_expansion": {
+      "new_inventions": {
         "objectives": [
           "Explain how new inventions changed transportation, communication, and industry."
+        ],
+        "groups": {
+          "transportation_revolution": {
+            "what_was_it": {
+              "mediaFiles": []
+            },
+            "roads": {
+              "mediaFiles": []
+            },
+            "rivers": {
+              "mediaFiles": []
+            },
+            "railroads": {
+              "mediaFiles": []
+            },
+            "transcontinental_railraod": {
+              "mediaFiles": []
+            }
+          },
+          "interchangable_parts": {
+            "what_was_it": {
+              "mediaFiles": []
+            },
+            "effects": {
+              "mediaFiles": []
+            }
+          },
+          "telegraph": {
+            "what_was_it": {
+              "mediaFiles": []
+            },
+            "effects": {
+              "mediaFiles": []
+            }
+          }
+        }
+      },
+      "attitudes_towards_expansion": {
+        "objectives": [
+          "Explain the causes and effects of Native American removal and the Trail of Tears.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
         ],
         "groups": {
           "monroe_doctrine": {
@@ -199,29 +240,6 @@
             }
           },
           "white_supremacy": {
-            "Card1": {
-              "mediaFiles": []
-            }
-          }
-        }
-      },
-      "new_inventions": {
-        "objectives": [
-          "Explain the causes and effects of Native American removal and the Trail of Tears.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
-        ],
-        "groups": {
-          "transportation_revolution": {
-            "Card1": {
-              "mediaFiles": []
-            }
-          },
-          "interchangable_parts": {
-            "Card1": {
-              "mediaFiles": []
-            }
-          },
-          "telegraph": {
             "Card1": {
               "mediaFiles": []
             }
