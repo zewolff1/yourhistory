@@ -313,7 +313,32 @@
         "objectives": [],
         "groups": {
           "war_starts_in_europe": {
-            "what_happened": {
+            "germany_invaded_poland": {
+              "mediaFiles": []
+            },
+            "reasons_for_isolation": {
+              "mediaFiles": []
+            }
+          },
+          "debating_isolation": {
+            "save_our_sons": {
+              "mediaFiles": []
+            },
+            "lend_lease_act": {
+              "mediaFiles": []
+            },
+            "flying_tigers": {
+              "mediaFiles": []
+            },
+            "political_cartoon": {
+              "mediaFiles": []
+            }
+          },
+          "ending_isolation": {
+            "pearl_harbor": {
+              "mediaFiles": []
+            },
+            "joining_the_war": {
               "mediaFiles": []
             }
           }
