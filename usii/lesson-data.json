@@ -314,7 +314,13 @@
         "groups": {
           "war_starts_in_europe": {
             "germany_invaded_poland": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Map Before US Joins.webp",
+                  "caption": ""
+                }
+              ]
             },
             "reasons_for_isolation": {
               "mediaFiles": []
@@ -322,24 +328,105 @@
           },
           "debating_isolation": {
             "save_our_sons": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Save Our Sons.avif",
+                  "caption": ""
+                }
+              ]
             },
             "lend_lease_act": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "It Would Be Dynamite If I Didn't.jpg",
+                  "caption": ""
+                }
+              ]
             },
             "flying_tigers": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Bomber Takes Off Over Shark-Nosed Fighters.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Curtiss P-40E Warhawk fighter plane during World War II Weekend.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "The Flying Tigers over China, 1942.jpg",
+                  "caption": ""
+                }
+              ]
             },
             "political_cartoon": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Ho Hum! No chance of contagion.svg",
+                  "caption": ""
+                }
+              ]
             }
           },
           "ending_isolation": {
             "pearl_harbor": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "video",
+                  "url": "Pearl Harbor Attack Footage.mp4",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "The forward superstructure and midships gun positions of the sunken USS Arizona (BB-39), afire after the Japanese raid, 7 December 1941..jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Japanese Navy Type 99 Carrier Bombers (?Val?) prepare to take off from an aircraft carrier during the morning of 7 December 1941. Ship in the background is the carrier Soryu..jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Pearl Harbor Attack Footage.mp4",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "The Commanding Officer of the Japanese aircraft carrier Shokaku watches as planes take off for the Pearl Harbor attack, during the morning of 7 December 1941..jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Torpedo planes attack ?Battleship Row? at about 0800 on 7 December, seen from a Japanese aircraft..jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "View of the Pearl Harbor attack looking southwesterly from the hills to the northward. Taken during the Japanese raid, with anti-aircraft shell bursts overhead..jpg",
+                  "caption": ""
+                }
+              ]
             },
             "joining_the_war": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "video",
+                  "url": "FDR Speech.mp4",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "A first draft of FDR's famous speech.jpg",
+                  "caption": ""
+                }
+              ]
             }
           }
         }
