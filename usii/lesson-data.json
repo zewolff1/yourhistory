@@ -310,7 +310,11 @@
   "world_war_ii": {
     "lessons": {
       "american_isolationism": {
-        "objectives": [],
+        "objectives": [
+          "Explain the arguments for and against US involvement in World War II",
+          "Deteremine the extent to which the US was neutral and isolated",
+          "Describe the effects of Pearl Harbor on American opinions of intervention"
+        ],
         "groups": {
           "war_starts_in_europe": {
             "germany_invaded_poland": {
@@ -432,7 +436,11 @@
         }
       },
       "american_homefront": {
-        "objectives": [],
+        "objectives": [
+          "Describe the impacts that civilians had on supporting the war",
+          "Assess the roles of propaganda in gaining support for the war",
+          "Describe the role of racism in Propaganda and the effects this had on the nation"
+        ],
         "groups": {
           "group1": {
             "card1": {
@@ -442,7 +450,10 @@
         }
       },
       "japanese-american_internment": {
-        "objectives": [],
+        "objectives": [
+          "Describe the impacts of the war on the loss of civil liberties in the US",
+          "Describe the role of racism in Propaganda and the effects this had on the nation"
+        ],
         "groups": {
           "group1": {
             "card1": {
@@ -452,7 +463,9 @@
         }
       },
       "black_american_contributions": {
-        "objectives": [],
+        "objectives": [
+          "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
+        ],
         "groups": {
           "group1": {
             "card1": {
@@ -462,7 +475,9 @@
         }
       },
       "war_in_europe": {
-        "objectives": [],
+        "objectives": [
+          "Describe the experiences of soldiers during World War II"
+        ],
         "groups": {
           "group1": {
             "card1": {
@@ -472,7 +487,10 @@
         }
       },
       "war_in_pacific": {
-        "objectives": [],
+        "objectives": [
+          "Describe the experiences of soldiers during World War II",
+          "Explain how cultural differences affected the views of Japan and the US on one another"
+        ],
         "groups": {
           "group1": {
             "card1": {
