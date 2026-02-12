@@ -29,11 +29,31 @@
   },
   "a_new_nation": {
     "lessons": {
-      "coming_soon": {
+      "washington_and_adams": {
         "objectives": [],
         "groups": {
-          "coming_soon": {
-            "coming_soon": {
+          "george_washington": {
+            "election_of_washington": {
+              "mediaFiles": []
+            },
+            "whiskey_rebellion": {
+              "mediaFiles": []
+            },
+            "war_between_france_and_britain": {
+              "mediaFiles": []
+            },
+            "two_terms": {
+              "mediaFiles": []
+            }
+          },
+          "john_adams": {
+            "who_was_he": {
+              "mediaFiles": []
+            },
+            "alien_acts": {
+              "mediaFiles": []
+            },
+            "sedition_acts": {
               "mediaFiles": []
             }
           }
@@ -45,7 +65,8 @@
     "lessons": {
       "louisiana_purchase": {
         "objectives": [
-          "Explain the causes and effects of the War of 1812 and its impact on the nation."
+          "Explain how different beliefs and ideas influenced attitudes toward westward expansion.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
         ],
         "groups": {
           "westward_expansion": {
@@ -121,8 +142,7 @@
       },
       "war_of_1812": {
         "objectives": [
-          "Explain how different beliefs and ideas influenced attitudes toward westward expansion.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain how new inventions changed transportation, communication, and industry."
         ],
         "groups": {
           "reasons_for_war": {
@@ -180,7 +200,8 @@
       },
       "new_inventions": {
         "objectives": [
-          "Explain how new inventions changed transportation, communication, and industry."
+          "Explain the causes and effects of Native American removal and the Trail of Tears.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
         ],
         "groups": {
           "transportation_revolution": {
@@ -191,13 +212,46 @@
               "mediaFiles": []
             },
             "rivers": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Major Canals Built in the 19th Century American Northeast.webp",
+                  "caption": ""
+                }
+              ]
             },
             "railroads": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Night scene on the New York Central Railroad., American Express company's special express train.png",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Railroads in 1830 and 1850.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Railroads in 1860.jpg",
+                  "caption": ""
+                }
+              ]
             },
             "transcontinental_railraod": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Building the Transcontinental Railroad.avif",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Chinese laborers at work on construction for the railroad built across the Sierra Nevada Mountains, circa 1870s.avif",
+                  "caption": ""
+                }
+              ]
             }
           },
           "interchangable_parts": {
@@ -220,27 +274,28 @@
       },
       "attitudes_towards_expansion": {
         "objectives": [
-          "Explain the causes and effects of Native American removal and the Trail of Tears.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain the causes and effects of the war between the United States and Mexico."
         ],
         "groups": {
-          "monroe_doctrine": {
-            "Card1": {
+          "ideas": {
+            "monroe_doctrine": {
+              "mediaFiles": []
+            },
+            "manifest_destiny": {
+              "mediaFiles": []
+            },
+            "nationalism": {
+              "mediaFiles": []
+            },
+            "white_supremacy": {
               "mediaFiles": []
             }
           },
-          "manifest_destiny": {
-            "Card1": {
+          "opinions": {
+            "quotes": {
               "mediaFiles": []
-            }
-          },
-          "nationalism": {
-            "Card1": {
-              "mediaFiles": []
-            }
-          },
-          "white_supremacy": {
-            "Card1": {
+            },
+            "political_cartoons": {
               "mediaFiles": []
             }
           }
@@ -248,7 +303,7 @@
       },
       "trail_of_tears": {
         "objectives": [
-          "Explain the causes and effects of the war between the United States and Mexico."
+          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
         ],
         "groups": {
           "opinions_on_removal": {
@@ -269,9 +324,7 @@
         }
       },
       "war_with_mexico": {
-        "objectives": [
-          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
-        ],
+        "objectives": [],
         "groups": {
           "causes": {
             "Card1": {
