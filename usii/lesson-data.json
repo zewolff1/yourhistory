@@ -1,11 +1,11 @@
 {
   "progressive_era": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -15,11 +15,11 @@
   },
   "end_of_isolationism": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -29,11 +29,11 @@
   },
   "roaring_20s": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -43,11 +43,11 @@
   },
   "great_depression": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -59,8 +59,8 @@
     "lessons": {
       "rise_of_fascism": {
         "objectives": [
-          "Define fascism and identify its main characteristics",
-          "Explain how political and economic instability contributed to the rise of fascist leaders in Europe"
+          "Define Fascism And Identify Its Main Characteristics",
+          "Explain How Political And Economic Instability Contributed To The Rise Of Fascist Leaders In Europe"
         ],
         "groups": {
           "what_is_fascism": {
@@ -86,16 +86,16 @@
       },
       "stages_of_genocide": {
         "objectives": [
-          "Identify and explain the stages of genocide",
-          "Explain how political and economic instability contributed to the rise of fascist leaders in Europe"
+          "Identify And Explain The Stages Of Genocide",
+          "Explain How Political And Economic Instability Contributed To The Rise Of Fascist Leaders In Europe"
         ],
         "groups": {
           "overview": {
             "what_is_genocide": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "stages_of_genocide.jpg",
+                  "type": "Image",
+                  "url": "Stages Of Genocide.Jpg",
                   "caption": ""
                 }
               ]
@@ -113,9 +113,9 @@
       },
       "propaganda": {
         "objectives": [
-          "Explain the purpose of propaganda and how it influences public opinion",
-          "Analyze examples of Nazi propaganda to identify techniques and messages",
-          "Analyze how propaganda and nationalism were used to gain public support"
+          "Explain The Purpose Of Propaganda And How It Influences Public Opinion",
+          "Analyze Examples Of Nazi Propaganda To Identify Techniques And Messages",
+          "Analyze How Propaganda And Nationalism Were Used To Gain Public Support"
         ],
         "groups": {
           "shaping_public_opinion": {
@@ -139,27 +139,27 @@
             "anti_semetic_childrens_book": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Antisemetic Childrens Book.jpg",
-                  "caption": "Antisemetic Childrens Book.caption"
+                  "type": "Image",
+                  "url": "Antisemetic Childrens Book.Jpg",
+                  "caption": "Antisemetic Childrens Book.Caption"
                 }
               ]
             },
             "nazi_recruitment_propaganda": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Nazi Recruitment Propaganda.jpg",
-                  "caption": "Nazi Recruitment Propaganda.caption"
+                  "type": "Image",
+                  "url": "Nazi Recruitment Propaganda.Jpg",
+                  "caption": "Nazi Recruitment Propaganda.Caption"
                 }
               ]
             },
             "propaganda_portrait_of_hitler": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Propaganda Portrait of Hitler.jpg",
-                  "caption": "Propaganda Portrait of Hitler.caption"
+                  "type": "Image",
+                  "url": "Propaganda Portrait Of Hitler.Jpg",
+                  "caption": "Propaganda Portrait Of Hitler.Caption"
                 }
               ]
             }
@@ -168,19 +168,19 @@
             "hitler_youth": {
               "mediaFiles": [
                 {
-                  "type": "video",
-                  "url": "Hitler Youth Footage.mp4",
+                  "type": "Video",
+                  "url": "Hitler Youth Footage.Mp4",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Hitler Youth Hiking.jpg",
-                  "caption": "Hitler Youth Hiking.caption"
+                  "type": "Image",
+                  "url": "Hitler Youth Hiking.Jpg",
+                  "caption": "Hitler Youth Hiking.Caption"
                 },
                 {
-                  "type": "image",
-                  "url": "League of German Girls.jpg",
-                  "caption": "League of German Girls.caption"
+                  "type": "Image",
+                  "url": "League Of German Girls.Jpg",
+                  "caption": "League Of German Girls.Caption"
                 }
               ]
             },
@@ -195,51 +195,51 @@
       },
       "persecution": {
         "objectives": [
-          "Analyze how discrimination and dehumanization can lead to mass violence",
-          "Evaluate the impact of persecution on individuals and communities"
+          "Analyze How Discrimination And Dehumanization Can Lead To Mass Violence",
+          "Evaluate The Impact Of Persecution On Individuals And Communities"
         ],
         "groups": {
           "kristallnacht": {
             "what_happened": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "A destroyed shopfront with Nazi officers standing by.webp",
+                  "type": "Image",
+                  "url": "A Destroyed Shopfront With Nazi Officers Standing By.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Nazi officers carrying away books, presumably to be burned.webp",
+                  "type": "Image",
+                  "url": "Nazi Officers Carrying Away Books, Presumably To Be Burned.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Objects litter the floor at a ransacked Jewish business.webp",
+                  "type": "Image",
+                  "url": "Objects Litter The Floor At A Ransacked Jewish Business.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Officers pouring petrol onto pews at a synagogue.webp",
+                  "type": "Image",
+                  "url": "Officers Pouring Petrol Onto Pews At A Synagogue.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Officers tearing down literature from a bookshelf.webp",
+                  "type": "Image",
+                  "url": "Officers Tearing Down Literature From A Bookshelf.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "People watch as a Nazi official attacks a Jewish business.webp",
+                  "type": "Image",
+                  "url": "People Watch As A Nazi Official Attacks A Jewish Business.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Pews overturned at a synagogue.webp",
+                  "type": "Image",
+                  "url": "Pews Overturned At A Synagogue.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "The synagogue ablaze during the pogrom.webp",
+                  "type": "Image",
+                  "url": "The Synagogue Ablaze During The Pogrom.Webp",
                   "caption": ""
                 }
               ]
@@ -263,22 +263,22 @@
       },
       "extermination": {
         "objectives": [
-          "Explain how the Nazi regime carried out the mass murder of Jews and other targeted groups",
-          "Analyze how extermination camps functioned as part of the Holocaust",
-          "Evaluate the human impact of genocide using historical evidence and survivor accounts"
+          "Explain How The Nazi Regime Carried Out The Mass Murder Of Jews And Other Targeted Groups",
+          "Analyze How Extermination Camps Functioned As Part Of The Holocaust",
+          "Evaluate The Human Impact Of Genocide Using Historical Evidence And Survivor Accounts"
         ],
         "groups": {
           "the_death_camps": {
             "what_happened": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Locations of Killing Sites.webp",
+                  "type": "Image",
+                  "url": "Locations Of Killing Sites.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "video",
-                  "url": "Killing Camps.mp4",
+                  "type": "Video",
+                  "url": "Killing Camps.Mp4",
                   "caption": ""
                 }
               ]
@@ -286,18 +286,18 @@
             "first_hand_accounts": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Boy in the Warsaw Ghetto.webp",
+                  "type": "Image",
+                  "url": "Boy In The Warsaw Ghetto.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Hungarian Jews at Auschwitz.webp",
+                  "type": "Image",
+                  "url": "Hungarian Jews At Auschwitz.Webp",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Women and Children at Auschwitz-Birkenau.webp",
+                  "type": "Image",
+                  "url": "Women And Children At Auschwitz-Birkenau.Webp",
                   "caption": ""
                 }
               ]
@@ -311,17 +311,17 @@
     "lessons": {
       "american_isolationism": {
         "objectives": [
-          "Explain the arguments for and against US involvement in World War II",
-          "Deteremine the extent to which the US was neutral and isolated",
-          "Describe the effects of Pearl Harbor on American opinions of intervention"
+          "Explain The Arguments For And Against Us Involvement In World War Ii",
+          "Deteremine The Extent To Which The Us Was Neutral And Isolated",
+          "Describe The Effects Of Pearl Harbor On American Opinions Of Intervention"
         ],
         "groups": {
           "war_starts_in_europe": {
             "germany_invaded_poland": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Map Before US Joins.webp",
+                  "type": "Image",
+                  "url": "Map Before Us Joins.Webp",
                   "caption": ""
                 }
               ]
@@ -334,8 +334,8 @@
             "save_our_sons": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Save Our Sons.avif",
+                  "type": "Image",
+                  "url": "Save Our Sons.Avif",
                   "caption": ""
                 }
               ]
@@ -343,8 +343,8 @@
             "lend_lease_act": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "It Would Be Dynamite If I Didn't.jpg",
+                  "type": "Image",
+                  "url": "It Would Be Dynamite If I Didn'T.Jpg",
                   "caption": ""
                 }
               ]
@@ -352,18 +352,18 @@
             "flying_tigers": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Bomber Takes Off Over Shark-Nosed Fighters.jpg",
+                  "type": "Image",
+                  "url": "Bomber Takes Off Over Shark-Nosed Fighters.Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Curtiss P-40E Warhawk fighter plane during World War II Weekend.jpg",
+                  "type": "Image",
+                  "url": "Curtiss P-40E Warhawk Fighter Plane During World War Ii Weekend.Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "The Flying Tigers over China, 1942.jpg",
+                  "type": "Image",
+                  "url": "The Flying Tigers Over China, 1942.Jpg",
                   "caption": ""
                 }
               ]
@@ -371,8 +371,8 @@
             "political_cartoon": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Ho Hum! No chance of contagion.svg",
+                  "type": "Image",
+                  "url": "Ho Hum! No Chance Of Contagion.Svg",
                   "caption": ""
                 }
               ]
@@ -382,38 +382,38 @@
             "pearl_harbor": {
               "mediaFiles": [
                 {
-                  "type": "video",
-                  "url": "Pearl Harbor Attack Footage.mp4",
+                  "type": "Video",
+                  "url": "Pearl Harbor Attack Footage.Mp4",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "The forward superstructure and midships gun positions of the sunken USS Arizona (BB-39), afire after the Japanese raid, 7 December 1941..jpg",
+                  "type": "Image",
+                  "url": "The Forward Superstructure And Midships Gun Positions Of The Sunken Uss Arizona (Bb-39), Afire After The Japanese Raid, 7 December 1941..Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Japanese Navy Type 99 Carrier Bombers (?Val?) prepare to take off from an aircraft carrier during the morning of 7 December 1941. Ship in the background is the carrier Soryu..jpg",
+                  "type": "Image",
+                  "url": "Japanese Navy Type 99 Carrier Bombers (?Val?) Prepare To Take Off From An Aircraft Carrier During The Morning Of 7 December 1941. Ship In The Background Is The Carrier Soryu..Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Pearl Harbor Attack Footage.mp4",
+                  "type": "Image",
+                  "url": "Pearl Harbor Attack Footage.Mp4",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "The Commanding Officer of the Japanese aircraft carrier Shokaku watches as planes take off for the Pearl Harbor attack, during the morning of 7 December 1941..jpg",
+                  "type": "Image",
+                  "url": "The Commanding Officer Of The Japanese Aircraft Carrier Shokaku Watches As Planes Take Off For The Pearl Harbor Attack, During The Morning Of 7 December 1941..Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Torpedo planes attack ?Battleship Row? at about 0800 on 7 December, seen from a Japanese aircraft..jpg",
+                  "type": "Image",
+                  "url": "Torpedo Planes Attack ?Battleship Row? At About 0800 On 7 December, Seen From A Japanese Aircraft..Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "View of the Pearl Harbor attack looking southwesterly from the hills to the northward. Taken during the Japanese raid, with anti-aircraft shell bursts overhead..jpg",
+                  "type": "Image",
+                  "url": "View Of The Pearl Harbor Attack Looking Southwesterly From The Hills To The Northward. Taken During The Japanese Raid, With Anti-Aircraft Shell Bursts Overhead..Jpg",
                   "caption": ""
                 }
               ]
@@ -421,13 +421,13 @@
             "joining_the_war": {
               "mediaFiles": [
                 {
-                  "type": "video",
-                  "url": "FDR Speech.mp4",
+                  "type": "Video",
+                  "url": "Fdr Speech.Mp4",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "A first draft of FDR's famous speech.jpg",
+                  "type": "Image",
+                  "url": "A First Draft Of Fdr'S Famous Speech.Jpg",
                   "caption": ""
                 }
               ]
@@ -437,9 +437,9 @@
       },
       "american_homefront": {
         "objectives": [
-          "Describe the impacts that civilians had on supporting the war",
-          "Assess the roles of propaganda in gaining support for the war",
-          "Describe the role of racism in Propaganda and the effects this had on the nation"
+          "Describe The Impacts That Civilians Had On Supporting The War",
+          "Assess The Roles Of Propaganda In Gaining Support For The War",
+          "Describe The Role Of Racism In Propaganda And The Effects This Had On The Nation"
         ],
         "groups": {
           "group1": {
@@ -449,10 +449,10 @@
           }
         }
       },
-      "japanese-american_internment": {
+      "japanese_american_internment": {
         "objectives": [
-          "Describe the impacts of the war on the loss of civil liberties in the US",
-          "Describe the role of racism in Propaganda and the effects this had on the nation"
+          "Describe The Impacts Of The War On The Loss Of Civil Liberties In The Us",
+          "Describe The Role Of Racism In Propaganda And The Effects This Had On The Nation"
         ],
         "groups": {
           "group1": {
@@ -464,7 +464,7 @@
       },
       "black_american_contributions": {
         "objectives": [
-          "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
+          "Describe The Impact Of Black Americans, Indigenous People, And Puerto Ricans In Contributing To The War Effort."
         ],
         "groups": {
           "group1": {
@@ -476,7 +476,7 @@
       },
       "war_in_europe": {
         "objectives": [
-          "Describe the experiences of soldiers during World War II"
+          "Describe The Experiences Of Soldiers During World War Ii"
         ],
         "groups": {
           "group1": {
@@ -488,8 +488,8 @@
       },
       "war_in_pacific": {
         "objectives": [
-          "Describe the experiences of soldiers during World War II",
-          "Explain how cultural differences affected the views of Japan and the US on one another"
+          "Describe The Experiences Of Soldiers During World War Ii",
+          "Explain How Cultural Differences Affected The Views Of Japan And The Us On One Another"
         ],
         "groups": {
           "group1": {
@@ -513,11 +513,11 @@
   },
   "cold_war": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -527,11 +527,11 @@
   },
   "civil_rights": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -541,11 +541,11 @@
   },
   "protest_movements": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
@@ -555,11 +555,11 @@
   },
   "modern_period": {
     "lessons": {
-      "coming soon": {
+      "coming_soon": {
         "objectives": [],
         "groups": {
-          "coming soon": {
-            "coming soon": {
+          "coming_soon": {
+            "coming_soon": {
               "mediaFiles": []
             }
           }
