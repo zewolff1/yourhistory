@@ -65,8 +65,7 @@
     "lessons": {
       "louisiana_purchase": {
         "objectives": [
-          "Explain how different beliefs and ideas influenced attitudes toward westward expansion.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain how new inventions changed transportation, communication, and industry."
         ],
         "groups": {
           "westward_expansion": {
@@ -142,7 +141,8 @@
       },
       "war_of_1812": {
         "objectives": [
-          "Explain how new inventions changed transportation, communication, and industry."
+          "Explain the causes and effects of Native American removal and the Trail of Tears.",
+          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
         ],
         "groups": {
           "reasons_for_war": {
@@ -200,8 +200,7 @@
       },
       "new_inventions": {
         "objectives": [
-          "Explain the causes and effects of Native American removal and the Trail of Tears.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain the causes and effects of the war between the United States and Mexico."
         ],
         "groups": {
           "transportation_revolution": {
@@ -274,7 +273,7 @@
       },
       "attitudes_towards_expansion": {
         "objectives": [
-          "Explain the causes and effects of the war between the United States and Mexico."
+          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
         ],
         "groups": {
           "ideas": {
@@ -302,22 +301,20 @@
         }
       },
       "trail_of_tears": {
-        "objectives": [
-          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
-        ],
+        "objectives": [],
         "groups": {
           "opinions_on_removal": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           },
           "causes_of_removal": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           },
           "effects_of_removal": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           }
@@ -327,12 +324,12 @@
         "objectives": [],
         "groups": {
           "causes": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           },
           "effects": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           }
@@ -342,22 +339,22 @@
         "objectives": [],
         "groups": {
           "motivations_for_migration": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           },
           "lives_of_miners": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           },
           "effects_of_gold_rush": {
-            "Card1": {
+            "card1": {
               "mediaFiles": []
             }
           },
-          "lgbtq+_people_in_the_gold_rush": {
-            "Card1": {
+          "lgbtq_people_in_the_gold_rush": {
+            "card1": {
               "mediaFiles": []
             }
           }
