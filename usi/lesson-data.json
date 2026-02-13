@@ -303,6 +303,9 @@
             },
             "george_washington": {
               "mediaFiles": []
+            },
+            "william_henry_harrison": {
+              "mediaFiles": []
             }
           },
           "political_cartoons": {
@@ -311,6 +314,33 @@
                 {
                   "type": "image",
                   "url": "Monroe Doctrine Proclaimed 1823.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "manifest_destiny_painting": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Manifest Destiny Painting.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "kidnapping": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Anti-NativeAmerican1.png",
+                  "caption": ""
+                }
+              ]
+            },
+            "colonists_praying": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Anti-NativeAmerican2.png",
                   "caption": ""
                 }
               ]
