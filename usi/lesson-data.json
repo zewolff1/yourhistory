@@ -65,7 +65,8 @@
     "lessons": {
       "louisiana_purchase": {
         "objectives": [
-          "Explain how new inventions changed transportation, communication, and industry."
+          "Explain How Different Beliefs And Ideas Influenced Attitudes Toward Westward Expansion.",
+          "Describe The Roles Of Nationalism And White Supremacy In Justifying Westward Expansion"
         ],
         "groups": {
           "westward_expansion": {
@@ -75,8 +76,8 @@
             "what_is_manifest_destiny": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Manifest Destiny.jpg",
+                  "type": "Image",
+                  "url": "Manifest Destiny.Jpg",
                   "caption": ""
                 }
               ]
@@ -86,13 +87,13 @@
             "louisiana_purchase": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Map of Louisiana Purchase.png",
+                  "type": "Image",
+                  "url": "Map Of Louisiana Purchase.Png",
                   "caption": ""
                 },
                 {
-                  "type": "video",
-                  "url": "lousianapurchase.mp4",
+                  "type": "Video",
+                  "url": "Lousianapurchase.Mp4",
                   "caption": ""
                 }
               ]
@@ -113,8 +114,8 @@
             "changes_in_territory": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Map of Louisiana Purchase.png",
+                  "type": "Image",
+                  "url": "Map Of Louisiana Purchase.Png",
                   "caption": ""
                 }
               ]
@@ -122,13 +123,13 @@
             "effects_on_indigenous_people": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Indigenous Nations after Purchase.png",
+                  "type": "Image",
+                  "url": "Indigenous Nations After Purchase.Png",
                   "caption": ""
                 },
                 {
-                  "type": "video",
-                  "url": "Loss of Indigenous Land.mp4",
+                  "type": "Video",
+                  "url": "Loss Of Indigenous Land.Mp4",
                   "caption": ""
                 }
               ]
@@ -141,16 +142,15 @@
       },
       "war_of_1812": {
         "objectives": [
-          "Explain the causes and effects of Native American removal and the Trail of Tears.",
-          "Describe the roles of nationalism and white supremacy in justifying westward expansion"
+          "Explain How New Inventions Changed Transportation, Communication, And Industry."
         ],
         "groups": {
           "reasons_for_war": {
             "impressment": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "bgimage.jpg",
+                  "type": "Image",
+                  "url": "Bgimage.Jpg",
                   "caption": ""
                 }
               ]
@@ -161,8 +161,8 @@
             "trade_restrictions": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "British Blockade.png",
+                  "type": "Image",
+                  "url": "British Blockade.Png",
                   "caption": ""
                 }
               ]
@@ -172,8 +172,8 @@
             "battles": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Major Battles of the War of 1812.webp",
+                  "type": "Image",
+                  "url": "Major Battles Of The War Of 1812.Webp",
                   "caption": ""
                 }
               ]
@@ -181,8 +181,8 @@
             "burning_of_white_house": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "White House Burning during the War of 1812.webp",
+                  "type": "Image",
+                  "url": "White House Burning During The War Of 1812.Webp",
                   "caption": ""
                 }
               ]
@@ -200,7 +200,8 @@
       },
       "new_inventions": {
         "objectives": [
-          "Explain the causes and effects of the war between the United States and Mexico."
+          "Explain The Causes And Effects Of Native American Removal And The Trail Of Tears.",
+          "Describe The Roles Of Nationalism And White Supremacy In Justifying Westward Expansion"
         ],
         "groups": {
           "transportation_revolution": {
@@ -213,8 +214,8 @@
             "rivers": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Major Canals Built in the 19th Century American Northeast.webp",
+                  "type": "Image",
+                  "url": "Major Canals Built In The 19Th Century American Northeast.Webp",
                   "caption": ""
                 }
               ]
@@ -222,18 +223,18 @@
             "railroads": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Night scene on the New York Central Railroad., American Express company's special express train.png",
+                  "type": "Image",
+                  "url": "Night Scene On The New York Central Railroad., American Express Company'S Special Express Train.Png",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Railroads in 1830 and 1850.jpg",
+                  "type": "Image",
+                  "url": "Railroads In 1830 And 1850.Jpg",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Railroads in 1860.jpg",
+                  "type": "Image",
+                  "url": "Railroads In 1860.Jpg",
                   "caption": ""
                 }
               ]
@@ -241,13 +242,13 @@
             "transcontinental_railraod": {
               "mediaFiles": [
                 {
-                  "type": "image",
-                  "url": "Building the Transcontinental Railroad.avif",
+                  "type": "Image",
+                  "url": "Building The Transcontinental Railroad.Avif",
                   "caption": ""
                 },
                 {
-                  "type": "image",
-                  "url": "Chinese laborers at work on construction for the railroad built across the Sierra Nevada Mountains, circa 1870s.avif",
+                  "type": "Image",
+                  "url": "Chinese Laborers At Work On Construction For The Railroad Built Across The Sierra Nevada Mountains, Circa 1870S.Avif",
                   "caption": ""
                 }
               ]
@@ -273,7 +274,7 @@
       },
       "attitudes_towards_expansion": {
         "objectives": [
-          "Explain why people moved west during the Gold Rush and how the Gold Rush affected people and society."
+          "Explain The Causes And Effects Of The War Between The United States And Mexico."
         ],
         "groups": {
           "ideas": {
@@ -301,7 +302,9 @@
         }
       },
       "trail_of_tears": {
-        "objectives": [],
+        "objectives": [
+          "Explain Why People Moved West During The Gold Rush And How The Gold Rush Affected People And Society."
+        ],
         "groups": {
           "opinions_on_removal": {
             "card1": {
