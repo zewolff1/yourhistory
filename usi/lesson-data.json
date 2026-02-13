@@ -1,5 +1,5 @@
 {
-  "test_worked": {
+  "american_colonies": {
     "lessons": {
       "coming_soon": {
         "objectives": [],
@@ -291,10 +291,21 @@
               "mediaFiles": []
             }
           },
-          "opinions": {
-            "quotes": {
+          "quotes": {
+            "john_quincy_adams": {
               "mediaFiles": []
             },
+            "john_o_sullivan": {
+              "mediaFiles": []
+            },
+            "andrew_jackson": {
+              "mediaFiles": []
+            },
+            "george_washington": {
+              "mediaFiles": []
+            }
+          },
+          "political_cartoons": {
             "political_cartoons": {
               "mediaFiles": []
             }
