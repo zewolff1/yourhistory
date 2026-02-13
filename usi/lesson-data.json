@@ -306,8 +306,14 @@
             }
           },
           "political_cartoons": {
-            "political_cartoons": {
-              "mediaFiles": []
+            "monroe_doctrine_proclaimed": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Monroe Doctrine Proclaimed 1823.jpg",
+                  "caption": ""
+                }
+              ]
             }
           }
         }
