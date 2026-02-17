@@ -76,7 +76,7 @@
             "what_is_manifest_destiny": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Manifest Destiny.jpg",
                   "caption": ""
                 }
@@ -87,7 +87,7 @@
             "louisiana_purchase": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Map Of Louisiana Purchase.png",
                   "caption": ""
                 },
@@ -114,7 +114,7 @@
             "changes_in_territory": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Map Of Louisiana Purchase.png",
                   "caption": ""
                 }
@@ -123,7 +123,7 @@
             "effects_on_indigenous_people": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Indigenous Nations After Purchase.png",
                   "caption": ""
                 },
@@ -149,7 +149,7 @@
             "impressment": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Bgimage.jpg",
                   "caption": ""
                 }
@@ -161,7 +161,7 @@
             "trade_restrictions": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "British Blockade.png",
                   "caption": ""
                 }
@@ -172,7 +172,7 @@
             "battles": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Major Battles Of The War Of 1812.Webp",
                   "caption": ""
                 }
@@ -181,7 +181,7 @@
             "burning_of_white_house": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "White House Burning During The War Of 1812.Webp",
                   "caption": ""
                 }
@@ -214,7 +214,7 @@
             "rivers": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Major Canals Built In The 19Th Century American Northeast.Webp",
                   "caption": ""
                 }
@@ -223,17 +223,17 @@
             "railroads": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Night Scene On The New York Central Railroad.png",
                   "caption": ""
                 },
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Railroads In 1830 And 1850.jpg",
                   "caption": ""
                 },
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Railroads In 1860.jpg",
                   "caption": ""
                 }
@@ -242,12 +242,12 @@
             "transcontinental_railroad": {
               "mediaFiles": [
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Building The Transcontinental Railroad.avif",
                   "caption": ""
                 },
                 {
-                  "type": "Image",
+                  "type": "image",
                   "url": "Chinese Laborers At Work On Construction For The Railroad Built Across The Sierra Nevada Mountains, Circa 1870S.avif",
                   "caption": ""
                 }
