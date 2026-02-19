@@ -532,6 +532,55 @@
                 }
               ]
             }
+          },
+          "connecting_to_today": {
+            "fictional_posters": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Star Wars.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "the_boys.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "xmen.webp",
+                  "caption": ""
+                }
+              ]
+            },
+            "covid-19": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "covid.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "batman covid.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "ice_recruitment": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "ice ad.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "ice ad 2.jpg",
+                  "caption": ""
+                }
+              ]
+            }
           }
         }
       },
