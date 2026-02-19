@@ -553,7 +553,7 @@
                 }
               ]
             },
-            "covid-19": {
+            "covid_19": {
               "mediaFiles": [
                 {
                   "type": "image",
