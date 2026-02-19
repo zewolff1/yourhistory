@@ -442,9 +442,95 @@
           "Describe the role of racism in Propaganda and the effects this had on the nation"
         ],
         "groups": {
-          "group1": {
-            "card1": {
+          "contributing_on_the_homefront": {
+            "the_homefront": {
               "mediaFiles": []
+            },
+            "rationing": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Rationing Gives You Your Fair Share.webp",
+                  "caption": ""
+                }
+              ]
+            },
+            "victory_gardens": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Every Garden a Munition Plant.png",
+                  "caption": ""
+                }
+              ]
+            },
+            "roles_of_women": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "We Can Do It.jpg",
+                  "caption": ""
+                }
+              ]
+            }
+          },
+          "posters_and_clips": {
+            "uncle_sam_says_garden": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Uncle Sam Says Garden.webp",
+                  "caption": ""
+                }
+              ]
+            },
+            "careless_talk": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Don't Kill Her Daddy.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "ducktators": {
+              "mediaFiles": []
+            },
+            "batman": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Batman Cover.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "captain_america": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Captain America Cover.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "tokyo_kid": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Tokyo Kid Say.png",
+                  "caption": ""
+                }
+              ]
+            },
+            "this_is_the_enemy": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "This Is the Enemy.jpg",
+                  "caption": ""
+                }
+              ]
             }
           }
         }
