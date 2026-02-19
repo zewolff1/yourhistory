@@ -259,7 +259,13 @@
               "mediaFiles": []
             },
             "effects": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Interchangeable Parts Diagram.webp",
+                  "caption": ""
+                }
+              ]
             }
           },
           "telegraph": {
@@ -267,7 +273,13 @@
               "mediaFiles": []
             },
             "effects": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "From Telegraph to Smartphone.jpg",
+                  "caption": ""
+                }
+              ]
             }
           }
         }
