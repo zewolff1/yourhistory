@@ -1,154 +1,559 @@
-<h3>March 26, 1790</h3>
-<p>
-The US Congress, in The Naturalization Act of March 26, 1790, states that ”any alien, being a free white person who shall have resided within the limits and under the jurisdiction of the United States for a term of two years, may be admitted to become a citizen thereof.”
-</p>
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Immigration History Timeline</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Source+Sans+3:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #1a1a2e;
+      --surface-color: #16213e;
+      --text-color: #edf2f4;
+      --primary-action: #e94560;
+      --secondary-action: #0f3460;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .font-display {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+    
+    .font-body {
+      font-family: 'Source Sans 3', system-ui, sans-serif;
+    }
+    
+    .timeline-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: linear-gradient(180deg, var(--primary-action), var(--secondary-action));
+      transform: translateX(-50%);
+    }
+    
+    @media (max-width: 768px) {
+      .timeline-line {
+        left: 20px;
+      }
+    }
+    
+    .timeline-item {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .timeline-item.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .timeline-card {
+      background: var(--surface-color);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      border: 1px solid transparent;
+    }
+    
+    .timeline-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 30px rgba(233, 69, 96, 0.2);
+      border-color: var(--primary-action);
+    }
+    
+    .timeline-card.expanded {
+      border-color: var(--primary-action);
+    }
+    
+    .timeline-dot {
+      width: 16px;
+      height: 16px;
+      background: var(--primary-action);
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 0 0 4px var(--bg-color), 0 0 0 6px var(--primary-action);
+      transition: all 0.3s ease;
+    }
+    
+    @media (max-width: 768px) {
+      .timeline-dot {
+        left: 20px;
+      }
+    }
+    
+    .timeline-item:hover .timeline-dot {
+      transform: translateX(-50%) scale(1.3);
+      box-shadow: 0 0 0 4px var(--bg-color), 0 0 0 8px var(--primary-action), 0 0 20px var(--primary-action);
+    }
+    
+    .year-badge {
+      background: var(--primary-action);
+      color: white;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-weight: 600;
+      display: inline-block;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    
+    .content-text {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease;
+      opacity: 0;
+    }
+    
+    .content-text.expanded {
+      max-height: 500px;
+      opacity: 1;
+    }
+    
+    .expand-hint {
+      font-size: 12px;
+      color: var(--primary-action);
+      margin-top: 8px;
+      opacity: 0.8;
+    }
+    
+    .scroll-indicator {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary-action);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 14px;
+      animation: bounce 2s infinite;
+      z-index: 100;
+      transition: opacity 0.3s ease;
+    }
+    
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+      40% { transform: translateX(-50%) translateY(-10px); }
+      60% { transform: translateX(-50%) translateY(-5px); }
+    }
+    
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary-action), #ff6b6b);
+      z-index: 1000;
+      transition: width 0.1s ease;
+    }
+    
+    .era-marker {
+      text-align: center;
+      padding: 20px;
+      margin: 40px 0;
+      position: relative;
+    }
+    
+    .era-marker::before,
+    .era-marker::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: calc(50% - 100px);
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--primary-action));
+    }
+    
+    .era-marker::before {
+      left: 0;
+    }
+    
+    .era-marker::after {
+      right: 0;
+      background: linear-gradient(90deg, var(--primary-action), transparent);
+    }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full font-body" style="background: var(--bg-color); color: var(--text-color); margin: 0;">
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="h-full overflow-auto" id="mainContainer">
+   <header class="text-center py-16 px-4" style="background: linear-gradient(180deg, var(--surface-color), var(--bg-color));">
+    <h1 id="timelineTitle" class="font-display text-4xl md:text-5xl font-bold mb-4" style="color: var(--text-color);">A History of US Immigration Policy</h1>
+    <p class="text-lg opacity-80 max-w-2xl mx-auto">Explore key moments that shaped immigration in America from 1790 to 1941</p>
+    <div class="mt-8 flex justify-center gap-4 flex-wrap"><button id="expandAllBtn" class="px-6 py-2 rounded-full font-medium transition-all" style="background: var(--primary-action); color: white;"> Expand All </button> <button id="collapseAllBtn" class="px-6 py-2 rounded-full font-medium transition-all" style="background: var(--secondary-action); color: white;"> Collapse All </button>
+    </div>
+   </header>
+   <main class="relative max-w-4xl mx-auto px-4 py-8">
+    <div class="timeline-line"></div>
+    <div id="timelineContainer"><!-- Timeline items will be generated here -->
+    </div>
+   </main>
+   <footer class="text-center py-12 opacity-60">
+    <p class="text-sm">Scroll to explore the timeline</p>
+   </footer>
+  </div>
+  <div class="scroll-indicator" id="scrollIndicator">
+   ↓ Scroll to explore
+  </div>
+  <script>
+    const timelineData = [
+      {
+        date: "March 26, 1790",
+        year: 1790,
+        title: "The Naturalization Act",
+        content: "The US Congress, in The Naturalization Act of March 26, 1790, states that \"any alien, being a free white person who shall have resided within the limits and under the jurisdiction of the United States for a term of two years, may be admitted to become a citizen thereof.\""
+      },
+      {
+        date: "May 6, 1882",
+        year: 1882,
+        title: "Chinese Exclusion Act",
+        content: "Congress passes the Chinese Exclusion Act, ending Chinese immigration for the next 60 years."
+      },
+      {
+        date: "January 1, 1885",
+        year: 1885,
+        title: "Japanese Laborers Arrive in Hawaii",
+        content: "Japanese laborers begin arriving in Hawaii, recruited by plantation owners to work the sugarcane fields."
+      },
+      {
+        date: "September 2, 1885",
+        year: 1885,
+        title: "Rock Springs Massacre",
+        content: "Anti-Chinese rioters set fire to Chinatown in Rock Springs, Wyoming, killing 28 Chinese miners and wounding 15, as a result of a swelling anti-Chinese reaction over cheap labor and strikebreakers. All 16 white suspects were acquitted."
+      },
+      {
+        date: "January 1, 1891",
+        year: 1891,
+        title: "Japanese Arrive on Mainland",
+        content: "Japanese immigrants arrive on the mainland United States for work, primarily as agricultural laborers."
+      },
+      {
+        date: "June 27, 1894",
+        year: 1894,
+        title: "Japanese Citizenship Denied",
+        content: "A US district court rules that Japanese immigrants cannot become citizens because they are not \"a free white person\" as the Naturalization Act of 1790 requires."
+      },
+      {
+        date: "May 7, 1900",
+        year: 1900,
+        title: "First Anti-Japanese Protest",
+        content: "The first large-scale anti-Japanese protest in California is held, organized by various labor groups."
+      },
+      {
+        date: "February 23, 1905",
+        year: 1905,
+        title: "\"The Japanese Invasion\"",
+        content: "\"The Japanese Invasion: The Problem of the Hour,\" reads the front page of the San Francisco Chronicle, helping to escalate racism towards the Japanese in the Bay Area."
+      },
+      {
+        date: "May 14, 1905",
+        year: 1905,
+        title: "Asiatic Exclusion League Formed",
+        content: "The Asiatic Exclusion League is formed in San Francisco. In attendance are labor leaders and European immigrants, marking the first organized effort of the anti-Japanese movement."
+      },
+      {
+        date: "October 11, 1906",
+        year: 1906,
+        title: "San Francisco School Segregation",
+        content: "The San Francisco Board of Education passes a resolution to segregate children of Chinese, Japanese, and Korean ancestry from the majority population."
+      },
+      {
+        date: "January 1, 1908",
+        year: 1908,
+        title: "Gentlemen's Agreement",
+        content: "Through what is known as the \"Gentlemen's Agreement,\" Japan and the United States agree to halt the migration of Japanese laborers to the United States. Japanese women are allowed to immigrate if they are wives of US residents."
+      },
+      {
+        date: "January 1, 1913",
+        year: 1913,
+        title: "California Alien Land Law",
+        content: "California passes the Alien Land Law, forbidding \"all aliens ineligible for citizenship\" from owning land. This will later grow to include prohibition on leasing land as well, and 12 other states will adopt similar laws."
+      },
+      {
+        date: "November 1, 1920",
+        year: 1920,
+        title: "Stricter Alien Land Law",
+        content: "A new, more stringent 1920 Alien Land Law passes in California, intending to close loopholes found in the 1913 Alien Land Law."
+      },
+      {
+        date: "January 1, 1921",
+        year: 1921,
+        title: "Japanese American Farming Success",
+        content: "Japanese American farmers produce $67 million dollars worth of crops, more than 10% of California's total crop value. There are 111,000 Japanese Americans in the United States—82,000 are immigrants and 29,000 were born in the United States."
+      },
+      {
+        date: "July 19, 1921",
+        year: 1921,
+        title: "Turlock Deportation",
+        content: "White vigilantes deport 58 Japanese laborers from Turlock, California, driving them out by truck at gunpoint. Other incidents occur across California and in Oregon and Arizona."
+      },
+      {
+        date: "November 13, 1922",
+        year: 1922,
+        title: "Ozawa Case Decision",
+        content: "The US Supreme Court rules on the Ozawa case, reaffirming the ban on Japanese immigrants becoming naturalized US citizens. This ban lasted until 1952."
+      },
+      {
+        date: "January 1, 1924",
+        year: 1924,
+        title: "Immigration Act of 1924",
+        content: "Congress passes the Immigration Act of 1924, effectively ending all Japanese immigration to the United States."
+      },
+      {
+        date: "November 1, 1941",
+        year: 1941,
+        title: "The Munson Report",
+        content: "A US intelligence report known as the \"Munson Report,\" commissioned by President Roosevelt, concludes that the great majority of Japanese Americans are loyal to the United States and do not pose a threat to national security in the event of war with Japan."
+      },
+      {
+        date: "December 7, 1941",
+        year: 1941,
+        title: "Attack on Pearl Harbor",
+        content: "Japan bombs US ships and planes at the Pearl Harbor military base in Hawaii. Over 3,500 servicemen are wounded or killed. Martial law is declared in Hawaii."
+      },
+      {
+        date: "December 7, 1941",
+        year: 1941,
+        title: "FBI Arrests Begin",
+        content: "The FBI begins arresting Japanese American community leaders and others suspected of potential disloyalty following the attack on Pearl Harbor."
+      }
+    ];
 
-<h3>May 6, 1882</h3>
-<p>
-Congress passes the Chinese Exclusion Act, ending Chinese immigration for the next 60 years.
-</p>
+    const defaultConfig = {
+      timeline_title: "A History of US Immigration Policy",
+      background_color: "#1a1a2e",
+      surface_color: "#16213e",
+      text_color: "#edf2f4",
+      primary_action: "#e94560",
+      secondary_action: "#0f3460",
+      font_family: "Playfair Display",
+      font_size: 16
+    };
 
-<h3>January 1, 1885</h3>
-<p>
-Japanese laborers begin arriving in Hawaii, recruited by plantation owners to work the sugarcane fields.
-</p>
+    let expandedItems = new Set();
 
-<h3>September 2, 1885</h3>
-<p>
-Anti-Chinese rioters set fire to Chinatown in Rock Springs, Wyoming, killing 28 Chinese miners and wounding 15, as a result of a swelling anti-Chinese reaction over cheap labor and strikebreakers. All 16 white suspects were acquitted.
-</p>
+    function renderTimeline() {
+      const container = document.getElementById('timelineContainer');
+      container.innerHTML = '';
+      
+      timelineData.forEach((item, index) => {
+        const isLeft = index % 2 === 0;
+        const itemEl = document.createElement('div');
+        itemEl.className = `timeline-item relative mb-12 ${isLeft ? 'md:pr-1/2' : 'md:pl-1/2 md:ml-auto'}`;
+        itemEl.style.cssText = isLeft 
+          ? 'padding-right: 50%; padding-left: 0;' 
+          : 'padding-left: 50%; padding-right: 0;';
+        
+        itemEl.innerHTML = `
+          <div class="timeline-dot" style="top: 30px;"></div>
+          <div class="timeline-card ${isLeft ? 'md:mr-8' : 'md:ml-8'}" data-index="${index}" style="margin-${isLeft ? 'right' : 'left'}: 40px;">
+            <span class="year-badge">${item.year}</span>
+            <h3 class="font-display text-xl font-semibold mb-2" style="color: var(--text-color);">${item.title}</h3>
+            <p class="text-sm opacity-70 mb-2">${item.date}</p>
+            <div class="content-text ${expandedItems.has(index) ? 'expanded' : ''}" id="content-${index}">
+              <p class="leading-relaxed opacity-90">${item.content}</p>
+            </div>
+            <p class="expand-hint">${expandedItems.has(index) ? 'Click to collapse' : 'Click to expand'}</p>
+          </div>
+        `;
+        
+        container.appendChild(itemEl);
+      });
 
-<h3>January 1, 1891</h3>
-<p>
-Japanese immigrants arrive on the mainland United States for work, primarily as agricultural laborers.
-</p>
+      // Add click handlers
+      document.querySelectorAll('.timeline-card').forEach(card => {
+        card.addEventListener('click', () => {
+          const index = parseInt(card.dataset.index);
+          toggleItem(index);
+        });
+      });
 
-<h3>June 27, 1894</h3>
-<p>
-A US district court rules that Japanese immigrants cannot become citizens because they are not “a free white person” as the Naturalization Act of 1790 requires.
-</p>
+      // Trigger animations
+      setTimeout(() => {
+        observeItems();
+      }, 100);
+    }
 
-<h3>May 7, 1900</h3>
-<p>
-The first large-scale anti-Japanese protest in California is held, organized by various labor groups.
-</p>
+    function toggleItem(index) {
+      const content = document.getElementById(`content-${index}`);
+      const card = document.querySelector(`[data-index="${index}"]`);
+      const hint = card.querySelector('.expand-hint');
+      
+      if (expandedItems.has(index)) {
+        expandedItems.delete(index);
+        content.classList.remove('expanded');
+        card.classList.remove('expanded');
+        hint.textContent = 'Click to expand';
+      } else {
+        expandedItems.add(index);
+        content.classList.add('expanded');
+        card.classList.add('expanded');
+        hint.textContent = 'Click to collapse';
+      }
+    }
 
-<h3>February 23, 1905</h3>
-<p>
-”The Japanese Invasion: The Problem of the Hour,” reads the front page of the San Francisco Chronicle, helping to escalate racism towards the Japanese in the Bay Area.
-</p>
+    function expandAll() {
+      timelineData.forEach((_, index) => {
+        expandedItems.add(index);
+        const content = document.getElementById(`content-${index}`);
+        const card = document.querySelector(`[data-index="${index}"]`);
+        const hint = card.querySelector('.expand-hint');
+        if (content) {
+          content.classList.add('expanded');
+          card.classList.add('expanded');
+          hint.textContent = 'Click to collapse';
+        }
+      });
+    }
 
-<h3>May 14, 1905</h3>
-<p>
-The Asiatic Exclusion League is formed in San Francisco. In attendance are labor leaders and European immigrants, marking the first organized effort of the anti-Japanese movement.
-</p>
+    function collapseAll() {
+      expandedItems.clear();
+      document.querySelectorAll('.content-text').forEach(content => {
+        content.classList.remove('expanded');
+      });
+      document.querySelectorAll('.timeline-card').forEach(card => {
+        card.classList.remove('expanded');
+        card.querySelector('.expand-hint').textContent = 'Click to expand';
+      });
+    }
 
-<h3>October 11, 1906</h3>
-<p>
-The San Francisco Board of Education passes a resolution to segregate children of Chinese, Japanese, and Korean ancestry from the majority population.
-</p>
+    function observeItems() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.1 });
 
-<h3>January 1, 1908</h3>
-<p>
-Through what is known as the “Gentlemen’s Agreement,” Japan and the United States agree to halt the migration of Japanese laborers to the United States. Japanese women are allowed to immigrate if they are wives of US residents.
-</p>
+      document.querySelectorAll('.timeline-item').forEach(item => {
+        observer.observe(item);
+      });
+    }
 
-<h3>January 1, 1913</h3>
-<p>
-California passes the Alien Land Law, forbidding “all aliens ineligible for citizenship” from owning land. This will later grow to include prohibition on leasing land as well, and 12 other states will adopt similar laws.
-</p>
+    function updateProgressBar() {
+      const container = document.getElementById('mainContainer');
+      const scrollTop = container.scrollTop;
+      const scrollHeight = container.scrollHeight - container.clientHeight;
+      const progress = (scrollTop / scrollHeight) * 100;
+      document.getElementById('progressBar').style.width = `${progress}%`;
+      
+      // Hide scroll indicator after scrolling
+      const indicator = document.getElementById('scrollIndicator');
+      if (scrollTop > 100) {
+        indicator.style.opacity = '0';
+      } else {
+        indicator.style.opacity = '1';
+      }
+    }
 
-<h3>November 1, 1920</h3>
-<p>
-A new, more stringent 1920 Alien Land Law passes in California, intending to close loopholes found in the 1913 Alien Land Law.
-</p>
+    function applyStyles(config) {
+      document.documentElement.style.setProperty('--bg-color', config.background_color || defaultConfig.background_color);
+      document.documentElement.style.setProperty('--surface-color', config.surface_color || defaultConfig.surface_color);
+      document.documentElement.style.setProperty('--text-color', config.text_color || defaultConfig.text_color);
+      document.documentElement.style.setProperty('--primary-action', config.primary_action || defaultConfig.primary_action);
+      document.documentElement.style.setProperty('--secondary-action', config.secondary_action || defaultConfig.secondary_action);
+      
+      const fontFamily = config.font_family || defaultConfig.font_family;
+      document.querySelectorAll('.font-display').forEach(el => {
+        el.style.fontFamily = `${fontFamily}, Georgia, serif`;
+      });
+      
+      const fontSize = config.font_size || defaultConfig.font_size;
+      document.body.style.fontSize = `${fontSize}px`;
+      
+      const title = document.getElementById('timelineTitle');
+      if (title) {
+        title.textContent = config.timeline_title || defaultConfig.timeline_title;
+      }
+    }
 
-<h3>January 1, 1921</h3>
-<p>
-Japanese American farmers produce $67 million dollars worth of crops, more than 10% of California’s total crop value. There are 111,000 Japanese Americans in the United States—82,000 are immigrants and 29,000 were born in the United States.
-</p>
+    // Initialize
+    document.getElementById('expandAllBtn').addEventListener('click', expandAll);
+    document.getElementById('collapseAllBtn').addEventListener('click', collapseAll);
+    document.getElementById('mainContainer').addEventListener('scroll', updateProgressBar);
 
-<h3>July 19, 1921</h3>
-<p>
-White vigilantes deport 58 Japanese laborers from Turlock, California, driving them out by truck at gunpoint. Other incidents occur across California and in Oregon and Arizona.
-</p>
+    // Responsive timeline
+    function updateTimelineLayout() {
+      const isMobile = window.innerWidth < 768;
+      document.querySelectorAll('.timeline-item').forEach((item, index) => {
+        if (isMobile) {
+          item.style.paddingLeft = '50px';
+          item.style.paddingRight = '0';
+        } else {
+          const isLeft = index % 2 === 0;
+          item.style.paddingRight = isLeft ? '50%' : '0';
+          item.style.paddingLeft = isLeft ? '0' : '50%';
+        }
+      });
+    }
 
-<h3>November 13, 1922</h3>
-<p>
-The US Supreme Court rules on the Ozawa case, reaffirming the ban on Japanese immigrants becoming naturalized US citizens. This ban lasted until 1952.
-</p>
+    window.addEventListener('resize', updateTimelineLayout);
 
-<h3>January 1, 1924</h3>
-<p>
-Congress passes the Immigration Act of 1924, effectively ending all Japanese immigration to the United States.
-</p>
+    // Element SDK initialization
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange: async (config) => {
+          applyStyles(config);
+        },
+        mapToCapabilities: (config) => ({
+          recolorables: [
+            {
+              get: () => config.background_color || defaultConfig.background_color,
+              set: (value) => { config.background_color = value; window.elementSdk.setConfig({ background_color: value }); }
+            },
+            {
+              get: () => config.surface_color || defaultConfig.surface_color,
+              set: (value) => { config.surface_color = value; window.elementSdk.setConfig({ surface_color: value }); }
+            },
+            {
+              get: () => config.text_color || defaultConfig.text_color,
+              set: (value) => { config.text_color = value; window.elementSdk.setConfig({ text_color: value }); }
+            },
+            {
+              get: () => config.primary_action || defaultConfig.primary_action,
+              set: (value) => { config.primary_action = value; window.elementSdk.setConfig({ primary_action: value }); }
+            },
+            {
+              get: () => config.secondary_action || defaultConfig.secondary_action,
+              set: (value) => { config.secondary_action = value; window.elementSdk.setConfig({ secondary_action: value }); }
+            }
+          ],
+          borderables: [],
+          fontEditable: {
+            get: () => config.font_family || defaultConfig.font_family,
+            set: (value) => { config.font_family = value; window.elementSdk.setConfig({ font_family: value }); }
+          },
+          fontSizeable: {
+            get: () => config.font_size || defaultConfig.font_size,
+            set: (value) => { config.font_size = value; window.elementSdk.setConfig({ font_size: value }); }
+          }
+        }),
+        mapToEditPanelValues: (config) => new Map([
+          ["timeline_title", config.timeline_title || defaultConfig.timeline_title]
+        ])
+      });
+    }
 
-<h3>November 1, 1941</h3>
-<p>
-A US intelligence report known as the “Munson Report,” commissioned by President Roosevelt, concludes that the great majority of Japanese Americans are loyal to the United States and do not pose a threat to national security in the event of war with Japan.
-</p>
-
-<h3>December 7, 1941</h3>
-<p>
-Japan bombs US ships and planes at the Pearl Harbor military base in Hawaii. Over 3,500 servicemen are wounded or killed. Martial law is declared in Hawaii.
-</p>
-
-<h3>December 7, 1941</h3>
-<p>
-The FBI begins arresting Japanese immigrants identified as community leaders: priests, Japanese language teachers, newspaper publishers, and heads of organizations. Within 48 hours, 1,291 Japanese immigrants are arrested. Most of these men would be incarcerated for the duration of the war, separated from their families.
-</p>
-
-<h3>December 8, 1941</h3>
-<p>
-A declaration of war against Japan is brought by the president and passed by Congress.
-</p>
-
-<h3>December 1, 1941 – January 1, 1942</h3>
-<p>
-Attorney General Francis Biddle authorizes search warrants for contraband materials in any home in which an “enemy alien” resides. Over the next few months, thousands of Japanese American households are randomly searched for such things as shortwave radios, cameras, and anything that might be considered a weapon, ranging from heirloom Japanese swords to dynamite that farmers use to clear stumps.
-</p>
-
-<h3>February 19, 1942</h3>
-<p>
-President Roosevelt signs Executive Order 9066, authorizing military authorities to exclude civilians from any area without trial or hearing. The order does not specify Japanese Americans—but they are the only group to be imprisoned as a result of the executive order.
-</p>
-
-<h3>February 25, 1942</h3>
-<p>
-The US Navy orders all Japanese Americans living on Terminal Island in the Port of Los Angeles—some 500 families—to leave within 48 hours. As the first group to be removed en masse, they incur especially heavy economic losses.
-</p>
-
-<h3>March 1, 1942</h3>
-<p>
-General DeWitt, commander of the Western Defense Command, issues Public Proclamation No. 1 and begins the process of removing all persons of Japanese ancestry—US citizens and aliens alike—living in the western halves of Washington State, California, Oregon, and parts of Arizona. A curfew goes into effect in these areas—all those of Japanese ancestry must remain at home from 8 pm to 6 am.
-</p>
-
-<h3>March 1, 1942</h3>
-<p>
-The Wartime Civil Control Administration opens 16 “Assembly Centers” to detain approximately 92,000 men, women, and children until the permanent incarceration camps are completed. The “Assembly Centers” are located at fairgrounds, racetracks, or former Civilian Conservation Corps (CCC) camps, with terrible living conditions. Entire families are housed in places like horse stalls with dirt floors.
-</p>
-
-<h3>March 5, 1942</h3>
-<p>
-California fires 34 Japanese American civil servants from their jobs.
-</p>
-
-<h3>March 18, 1942</h3>
-<p>
-The President signs Executive Order 9102, establishing the War Relocation Authority with Milton Eisenhower as director.
-</p>
-
-<h3>March 24, 1942</h3>
-<p>
-The first Civilian Exclusion Order is issued by the Army for Bainbridge Island near Seattle, Washington. Forty-five families are given one week to prepare. By the end of October 1942, 108 exclusion orders have been issued.
-</p>
-
-<h3>March 27, 1942</h3>
-<p>
-”Voluntary evacuation” ends as the Army prohibits the changing of residence for all Japanese Americans in the western halves of Washington State, California, and Oregon.
-</p>
-
-<h3>May 1, 1942</h3>
-<p>
-The Japanese American incarcerees begin transferring to permanent War Relocation Authority incarceration facilities or “camps.” There are a total of 10 camps: Manzanar, Poston, Gila River, Topaz, Granada (Amache), Heart Mountain, Minidoka, Tule Lake, Jerome, and Rohwer.
-</p>
+    // Initial render
+    renderTimeline();
+    updateTimelineLayout();
+    applyStyles(defaultConfig);
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d10281922c0b432',t:'MTc3MTYxMzA4MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
