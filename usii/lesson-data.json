@@ -678,14 +678,7 @@
                 }
               ]
             }
-          }
-        }
-      },
-      "japanese-american_internment": {
-        "objectives": [
-          "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
-        ],
-        "groups": {
+          },
           "japanese_american_resistance": {
             "legal_challenges_to_incarceration": {
               "mediaFiles": []
@@ -701,7 +694,7 @@
       },
       "black_american_contributions": {
         "objectives": [
-          "Describe the experiences of soldiers during World War II"
+          "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
         ],
         "groups": {
           "group1": {
@@ -713,8 +706,7 @@
       },
       "war_in_europe": {
         "objectives": [
-          "Describe the experiences of soldiers during World War II",
-          "Explain how cultural differences affected the views of Japan and the US on one another"
+          "Describe the experiences of soldiers during World War II"
         ],
         "groups": {
           "group1": {
@@ -725,7 +717,10 @@
         }
       },
       "war_in_pacific": {
-        "objectives": [],
+        "objectives": [
+          "Describe the experiences of soldiers during World War II",
+          "Explain how cultural differences affected the views of Japan and the US on one another"
+        ],
         "groups": {
           "group1": {
             "card1": {
