@@ -587,14 +587,113 @@
           }
         }
       },
-      "japanese-american_internment": {
+      "japanese_american_incarceration_camps": {
         "objectives": [
-          "Describe the impacts of the war on the loss of civil liberties in the US",
-          "Describe the role of racism in Propaganda and the effects this had on the nation"
+          "What conditions made the incarceration of Japanese Americans possible during World War II?",
+          "What was life like for Japanese Americans during incarceration?",
+          "How did Japanese Americans resist their incarceration and assert their rights during World War II?"
         ],
         "groups": {
-          "group1": {
-            "card1": {
+          "introduction": {
+            "i_am_an_american": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "I am an American.jpg",
+                  "caption": ""
+                }
+              ]
+            },
+            "looking_like_the_enemy": {
+              "mediaFiles": []
+            }
+          },
+          "conditions_that_led_to_incarceration": {
+            "asian_discrimination_timeline": {
+              "mediaFiles": []
+            }
+          },
+          "life_in_incarceration_camps": {
+            "incarceration_of_japanese_americans": {
+              "mediaFiles": []
+            },
+            "map_of_camps": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "map_of_japanese_american_incarceration_camps.svg",
+                  "caption": ""
+                }
+              ]
+            },
+            "concentration_constellation": {
+              "mediaFiles": []
+            },
+            "snapshots_of_incarceration": {
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "A worker loads potatoes grown on the farm of the Tule Lake incarceration camp.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Family in their barrack apartment, Tule Lake Relocation Center, California.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Horse Stalls Converted Into Living Quarters.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Japanese Americans making camouflage nets.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Official Information Bulletin.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Residents of Japanese Ancestry Await Bus with Baggage.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "The Manzanar incarceration camp during a dust storm.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "The nursery school at Tule Lake incarceration camp.webp",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Woman making artificial flowers in the Art School.webp",
+                  "caption": ""
+                }
+              ]
+            }
+          }
+        }
+      },
+      "japanese-american_internment": {
+        "objectives": [
+          "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
+        ],
+        "groups": {
+          "japanese_american_resistance": {
+            "legal_challenges_to_incarceration": {
+              "mediaFiles": []
+            },
+            "japanese_american_military_service_and_protest": {
+              "mediaFiles": []
+            },
+            "japanese_american_incarceration_camp_protests": {
               "mediaFiles": []
             }
           }
@@ -602,7 +701,8 @@
       },
       "black_american_contributions": {
         "objectives": [
-          "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
+          "Describe the experiences of soldiers during World War II",
+          "Explain how cultural differences affected the views of Japan and the US on one another"
         ],
         "groups": {
           "group1": {
@@ -613,9 +713,7 @@
         }
       },
       "war_in_europe": {
-        "objectives": [
-          "Describe the experiences of soldiers during World War II"
-        ],
+        "objectives": [],
         "groups": {
           "group1": {
             "card1": {
@@ -625,10 +723,7 @@
         }
       },
       "war_in_pacific": {
-        "objectives": [
-          "Describe the experiences of soldiers during World War II",
-          "Explain how cultural differences affected the views of Japan and the US on one another"
-        ],
+        "objectives": [],
         "groups": {
           "group1": {
             "card1": {
