@@ -614,13 +614,16 @@
           "conditions_that_led_to_incarceration": {
             "asian_discrimination_timeline": {
               "mediaFiles": []
+            },
+            "roger_daniels_quote": {
+              "mediaFiles": []
             }
           },
           "life_in_incarceration_camps": {
             "incarceration_of_japanese_americans": {
               "mediaFiles": []
             },
-            "map_of_camps": {
+            "concentration_constellation": {
               "mediaFiles": [
                 {
                   "type": "image",
@@ -628,9 +631,6 @@
                   "caption": ""
                 }
               ]
-            },
-            "concentration_constellation": {
-              "mediaFiles": []
             },
             "snapshots_of_incarceration": {
               "mediaFiles": [
