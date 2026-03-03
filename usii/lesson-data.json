@@ -708,7 +708,38 @@
         "groups": {
           "contributions_despite_discrimination": {
             "women_in_the_war": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Black Trainees in the Metal Trades.png",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Homemakers War Guide.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Mildred Davenport Carter.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Mrs. Helene R. Morris.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Mrs. James D. Donlon Jr..jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "T.A. Morgan, Sayde R. Carter, Learner Turret Lathe, 4555.png",
+                  "caption": ""
+                }
+              ]
             },
             "puerto_ricans_in_the_war": {
               "mediaFiles": []
