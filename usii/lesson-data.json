@@ -742,13 +742,61 @@
               ]
             },
             "puerto_ricans_in_the_war": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "First Company, 2d Puerto Rico Mounted Battalion..jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Puerto Rican women served in the Women's Army Corps.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "The original Borinqueneers of Puerto Rico..jpg",
+                  "caption": ""
+                }
+              ]
             },
             "navajo_code_talkers": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Navajo student Tom Torlino when he entered the Carlisle Indian Industrial School in Carlisle.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Two Navajo Code Talkers.jpg",
+                  "caption": ""
+                }
+              ]
             },
             "tuskegee_airmen": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Cadets in class.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Group Photo.png",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "Tuskegee Airmen Cadets.jpg",
+                  "caption": ""
+                },
+                {
+                  "type": "image",
+                  "url": "WWII propaganda poster.webp",
+                  "caption": ""
+                }
+              ]
             }
           }
         }
