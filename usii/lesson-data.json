@@ -701,13 +701,22 @@
           }
         }
       },
-      "black_american_contributions": {
+      "double_victory": {
         "objectives": [
           "Describe the impact of Black Americans, Indigenous People, and Puerto Ricans in contributing to the war effort."
         ],
         "groups": {
-          "group1": {
-            "card1": {
+          "contributing_despite_discrimination": {
+            "women_in_the_war": {
+              "mediaFiles": []
+            },
+            "puerto_ricans_in_the_war": {
+              "mediaFiles": []
+            },
+            "navajo_code_talkers": {
+              "mediaFiles": []
+            },
+            "tuskegee_airmen": {
               "mediaFiles": []
             }
           }
@@ -715,7 +724,8 @@
       },
       "war_in_europe": {
         "objectives": [
-          "Describe the experiences of soldiers during World War II"
+          "Describe the experiences of soldiers during World War II",
+          "Explain how cultural differences affected the views of Japan and the US on one another"
         ],
         "groups": {
           "group1": {
@@ -726,10 +736,7 @@
         }
       },
       "war_in_pacific": {
-        "objectives": [
-          "Describe the experiences of soldiers during World War II",
-          "Explain how cultural differences affected the views of Japan and the US on one another"
-        ],
+        "objectives": [],
         "groups": {
           "group1": {
             "card1": {
