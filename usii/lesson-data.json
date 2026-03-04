@@ -804,10 +804,22 @@
               "mediaFiles": []
             },
             "double_v": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "Double V.jpg",
+                  "caption": ""
+                }
+              ]
             },
             "soldier_survey": {
-              "mediaFiles": []
+              "mediaFiles": [
+                {
+                  "type": "image",
+                  "url": "poll wwii.png",
+                  "caption": ""
+                }
+              ]
             }
           }
         }
