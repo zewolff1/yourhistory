@@ -798,6 +798,17 @@
                 }
               ]
             }
+          },
+          "primary_sources": {
+            "letter_to_the_editor": {
+              "mediaFiles": []
+            },
+            "double_v": {
+              "mediaFiles": []
+            },
+            "soldier_survey": {
+              "mediaFiles": []
+            }
           }
         }
       },
