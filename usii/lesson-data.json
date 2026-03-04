@@ -764,7 +764,7 @@
               "mediaFiles": [
                 {
                   "type": "image",
-                  "url": "Navajo student Tom Torlino when he entered the Carlisle Indian Industrial School in Carlisle.jpg",
+                  "url": "Navajo student Tom Torlino.jpg",
                   "caption": ""
                 },
                 {
@@ -803,8 +803,7 @@
       },
       "war_in_europe": {
         "objectives": [
-          "Describe the experiences of soldiers during World War II",
-          "Explain how cultural differences affected the views of Japan and the US on one another"
+          "Describe the experiences of soldiers during World War II"
         ],
         "groups": {
           "group1": {
@@ -815,7 +814,10 @@
         }
       },
       "war_in_pacific": {
-        "objectives": [],
+        "objectives": [
+          "Describe the experiences of soldiers during World War II",
+          "Explain how cultural differences affected the views of Japan and the US on one another"
+        ],
         "groups": {
           "group1": {
             "card1": {
